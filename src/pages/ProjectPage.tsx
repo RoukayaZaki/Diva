@@ -1,9 +1,12 @@
+import { useParams } from "react-router-dom";
+
 function ProjectPage() {
-  return (
-    <div>
-      <h1>Project Page</h1>
-    </div>
-  );
+    const { id } = useParams();
+    return (
+        <div>
+            <h1>Project Page {id}</h1>
+        </div>
+    );
 }
 
 export default ProjectPage;
