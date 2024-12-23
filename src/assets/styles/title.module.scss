@@ -1,0 +1,27 @@
+@font-face {
+    font-family: edwardian;
+    src: url('../fonts/edwardianscriptitc-webfont.woff2') format('woff2'),
+        url('../fonts/edwardianscriptitc.ttf') url('../fonts/edwardianscriptitc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: voga;
+    src: url('../fonts/Voga-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+}
+.titleFirst {
+    font-family: edwardian;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #660000;
+}
+.titleRest {
+    font-family: voga;
+    font-weight: 500;
+    font-size: 1em;
+    color: #000;
+}
