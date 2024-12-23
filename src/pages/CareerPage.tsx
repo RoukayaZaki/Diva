@@ -1,9 +1,12 @@
+import Header from "../components/Header";
+
 function CareerPage() {
-  return (
-    <div>
-      <h1>Career Page</h1>
-    </div>
-  );
+    return (
+        <>
+            <Header />
+            <h1>Career Page</h1>
+        </>
+    );
 }
 
 export default CareerPage;

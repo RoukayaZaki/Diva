@@ -22,23 +22,23 @@ const BrowserRouter = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: '/about',
+    path: 'about',
     element: <AboutPage />,
   },
   {
-    path: '/contact',
+    path: 'contact',
     element: <ContactPage />,
   },
   {
-    path: '/services',
+    path: 'services',
     element: <ServicePage />,
   },
   {
-    path: '/terms',
+    path: 'terms',
     element: <TermsPage />,
   },
   {
-    path: 'Careers',
+    path: 'careers',
     element: <CareerPage />,
   },
   {

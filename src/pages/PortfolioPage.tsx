@@ -1,10 +1,13 @@
+import Header from "../components/Header";
+
 function PortfolioPage() {
-  return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>My portfolio will be here</p>
-    </div>
-  );
+    return (
+        <>
+            <Header />
+            <h1>Portfolio</h1>
+            <p>My portfolio will be here</p>
+        </>
+    );
 }
 
 export default PortfolioPage;
