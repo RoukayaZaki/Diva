@@ -1,14 +1,9 @@
-/* $burgundy: #660000;
-$cream: #F1EFE7;
-$gray: #BFBAB2;
-$black: #000000; */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
   font-family: edwardian;
   src: url('./fonts/edwardianscriptitc-webfont.woff2') format('woff2'),
-   url('./fonts/edwardianscriptitc.ttf')
-       url('./fonts/edwardianscriptitc-webfont.woff') format('woff');
+    url('./fonts/edwardianscriptitc.ttf') url('./fonts/edwardianscriptitc-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -20,16 +15,23 @@ $black: #000000; */
   font-weight: normal;
   font-style: normal;
 
+
 }
+
+
 :root {
-  font-family:  voga, edwardian;
+  --burgundy: #660000;
+  --cream: #F1EFE7;
+  --gray: #BFBAB2;
+  --black: #151515;
+  font-family: voga, edwardian;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #000000;
-  background-color: #F1EFE7;
-/* 
+  color: var(--black);
+  background-color: var(--cream);
+  /* 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,13 +43,12 @@ a {
   /* color: #646cff; */
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #660000;
+  color: var(--burgundy);
 }
 
-body {
-  
-}
+body {}
 
 h1 {
   /* font-size: 3.2em;
@@ -65,13 +66,16 @@ button {
   cursor: pointer;
   transition: border-color 0.25s; */
 }
+
 button:hover {
   /* border-color: #646cff; */
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
 img {
   max-width: 100%;
 }
@@ -81,9 +85,11 @@ img {
     /* color: #213547;
     background-color: #ffffff; */
   }
+
   a:hover {
     /* color: #747bff; */
   }
+
   button {
     /* background-color: #f9f9f9; */
   }
