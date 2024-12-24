@@ -17,11 +17,15 @@
     font-family: edwardian;
     font-weight: 500;
     font-size: 1.5em;
-    color: #660000;
+    color: var(--black);
+    bottom: -3em;
+    vertical-align: -.02em;
+    // margin-left: 1em;
 }
 .titleRest {
     font-family: voga;
     font-weight: 500;
     font-size: 1em;
-    color: #000;
+    padding-left: .1em;
+    color: var(--black);
 }

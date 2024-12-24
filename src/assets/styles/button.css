@@ -1,0 +1,23 @@
+/* CTA Button Styles */
+.cta-button {
+    width: 100%;
+    background-color: var(--black); /* Black background */
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+}
+
+.cta-button a {
+    color: var(--cream); /* White text */
+    text-decoration: none;
+    font-family: "Poppins"; /* Elegant font */
+    font-size: .9em;
+    font-weight: 300;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    transition: color 0.3s;
+}
+
+.cta-button a:hover {
+    color: var(--gray); /* Gold hover effect */
+}

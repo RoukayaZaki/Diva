@@ -1,0 +1,182 @@
+/* Hero Section */
+
+@font-face {
+    font-family: voga;
+    src: url('../fonts/Voga-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* .grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 300;
+
+    &:before {
+        content: "";
+        top: -10rem;
+        left: -10rem;
+        width: calc(100% + 10rem);
+        height: calc(100% + 100rem);
+        z-index: 9999;
+        position: fixed;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
+        opacity: 0.15;
+        
+    }
+
+} */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% 5% 10% 5%;
+    min-height: 75vh;
+    border: 1px solid var(--cream);
+    /* padding: 20px; */
+    align-items: center;
+    gap: 0rem;
+    line-height: 1;
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+.hero-text span {
+    font-size: 9em !important;
+    color: var(--cream) !important;
+    text-align: center;
+}
+.titleFirst {
+    font-size: 10em;
+}
+.hero-text h1 {
+    font-size: 9em !important;
+    color: var(--cream);
+    text-align: center;
+    font-family: voga;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.box p {
+    font-size: .9em !important;
+    color: var(--cream);
+    text-align: center;
+    font-family: "Poppins";
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase; 
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.hero-section {
+    background-image: url('../images/homepage/homepage-hero-cropped.jpg');
+    background-size: cover;
+    /* Ensure both images cover the section */
+    filter: saturate(40%);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: var(--cream) !important;
+}
+
+.header a {
+    color: var(--cream) !important;
+}
+
+.title span {
+    color: var(--cream) !important;
+}
+
+.titleFirst {
+    color: var(--cream) !important;
+}
+
+.titleRest {
+    color: var(--cream) !important;
+}
+
+.home-about {
+    display: inline-grid;
+    grid-template-columns: 1.7fr 2fr;
+    vertical-align: bottom;
+    grid-template-rows: 1fr;
+    background-color: var(--black);
+    height: 40vh;
+    color: var(--cream);
+    padding: 5% 5% 0% 5%;
+}
+.home-about-left {
+    height: 100%;
+    vertical-align: bottom;
+    padding-right: 100px;
+}
+.home-about-left p{
+    grid-template-columns: 30%;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .9em;
+    
+}
+.home-about-left h1 {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 3.5em;
+    line-height: .9;
+}
+.home-about-right {
+    grid-template-columns: 30%;
+    font-family: "Poppins";
+    /* text-transform: uppercase; */
+    font-weight: 300;
+    font-size: .9em;
+    text-align: justify;
+    justify-content: space-between;
+    /* align-items: bottom; */
+    height: 100%;
+    vertical-align: bottom;
+    padding-top: 8.9%;
+}
+
+.home-portfolio {
+    padding: 0% 5% 10% 5%;
+    height: 100vh;
+    background-color: var(--burgundy);
+    display: flex;
+    flex-direction: column;
+    color: var(--cream) !important;
+    align-items: center;
+    justify-content: center;
+}
+.home-portfolio p {
+    font-family: "Poppins";
+    text-transform: uppercase;
+
+}
+.home-portfolio span {
+    color: var(--cream) !important;
+    font-size: 11em !important;
+    line-height: .8;
+}
+.home-projects {
+    height: 60vh;
+}
+
