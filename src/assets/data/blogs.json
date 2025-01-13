@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "image": "src/assets/images/blogs/blog-1.jpg",
+        "title": "Mastering Sophisticated Branding: Insider Tips from Diva's Experts",
+        "date": "March 9, 2024",
+        "author": "Diva Solutions",
+        "description": [
+            "Sustainable fashion is more than just a trend; it's a movement that aims to revolutionize the industry. Brands are focusing on eco-friendly materials, ethical production methods, and reducing waste.",
+            "In recent years, consumers have become more conscious of the environmental and social impact of their purchases. This shift in mindset is pushing companies to innovate and adopt sustainable practices.",
+            "From recycled fabrics to digital fashion weeks, the future of sustainable fashion looks promising. As this industry evolves, it's essential to support brands making genuine efforts toward sustainability."
+        ]
+    },
+    {
+        "id": 2,
+        "image": "src/assets/images/blogs/blog-2.png",
+        "title": "Mastering Angular for Web Development",
+        "description": [
+            "Angular is one of the most powerful frameworks for building dynamic web applications. Its robust features and comprehensive toolset make it a favorite among developers.",
+            "With Angular, you can create highly interactive and responsive user interfaces. The framework also supports modular development, making code easier to maintain and scale.",
+            "Learning Angular can open up numerous opportunities in the tech industry. Whether you're building single-page applications or complex enterprise solutions, Angular provides the tools you need to succeed."
+        ]
+    },
+    {
+        "id": 3,
+        "image": "src/assets/images/blogs/blog-3.jpg",
+        "title": "Exploring the Beauty of Egypt",
+        "description": [
+            "Egypt is a land of wonders, offering a unique blend of ancient history and modern culture. From the pyramids of Giza to the bustling streets of Cairo, there's something for everyone.",
+            "The Nile River, the lifeblood of Egypt, provides breathtaking views and unforgettable experiences. Cruising down the Nile is a must for anyone visiting the country.",
+            "Beyond its historical sites, Egypt is home to stunning beaches, vibrant markets, and delicious cuisine. It's a destination that leaves a lasting impression on all who visit."
+        ]
+    },
+    {
+        "id": 4,
+        "image": "src/assets/images/blogs/blog-4.jpg",
+        "title": "The Art of Food Photography",
+        "description": [
+            "Food photography is a creative art form that captures the beauty and essence of dishes. From vibrant colors to intricate details, food photography showcases the culinary world in a unique way.",
+            "Lighting, composition, and styling are essential elements of food photography. By mastering these techniques, photographers can create stunning images that evoke the senses.",
+            "Whether you're a professional photographer or an amateur foodie, food photography is a fun and rewarding hobby. It allows you to experiment with different styles and techniques while indulging in delicious meals."
+        ]
+    },
+    {
+        "id": 5,
+        "image": "src/assets/images/blogs/blog-5.jpg",
+        "title": "The Benefits of Mindful Meditation",
+        "description": [
+            "Mindful meditation is a practice that involves focusing on the present moment without judgment. It's a powerful tool for reducing stress, improving mental clarity, and enhancing overall well-being.",
+            "By cultivating mindfulness, individuals can develop a greater sense of self-awareness and emotional resilience. This practice can help manage anxiety, depression, and other mental health conditions.",
+            "Incorporating mindful meditation into your daily routine can have a profound impact on your life. It can improve your relationships, boost your creativity, and promote a sense of inner peace."
+        ]
+    }
+]

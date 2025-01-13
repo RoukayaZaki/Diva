@@ -97,21 +97,33 @@
     color: var(--cream) !important;
 }
 
-.header a {
+.hero-section span {
     color: var(--cream) !important;
-}
-
-.title span {
+}  
+/* .hero-section span:hover {
+    color: var(--burgundy) !important;
+} */
+.hero-section a {
     color: var(--cream) !important;
-}
+}   
+.hero-section a:hover {
+    color: var(--burgundy) !important;
+}  
+/* .header a {
+    color: var(--black) !important;
+} */
 
-.titleFirst {
+/* .title span {
+    color: var(--cream) !important;
+} */
+
+/* .titleFirst {
     color: var(--cream) !important;
 }
 
 .titleRest {
     color: var(--cream) !important;
-}
+} */
 
 .home-about {
     display: inline-grid;
@@ -178,5 +190,9 @@
 }
 .home-projects {
     height: 60vh;
+    
 }
-
+/* .slick-container {
+    position: relative;
+    z-index: 10;
+} */

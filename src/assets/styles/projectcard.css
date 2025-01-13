@@ -1,0 +1,18 @@
+
+.project-card {
+    margin: 0 20px 0 20px;
+    align-items: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 50vh;
+    /* object-fit:none; */
+}
+.project-card p {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 1.5em 0 0.5em 0;
+    text-align: center;
+    font-family: "Poppins";
+}
