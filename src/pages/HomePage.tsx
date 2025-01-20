@@ -3,8 +3,16 @@ import Header from "../components/Header";
 import "../assets/styles/hero.css";
 import Title from "../components/Title";
 import ProjectSlider from "../components/ProjectSlider";
+import services from '../assets/data/services.json';
+import ExpandableItem from "../components/ExpandableItem";
+import React, { useState } from "react";
 
 function HomePage() {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+    const handleToggleExpand = (index: number) => {
+        setExpandedIndex(expandedIndex === index ? null : index);
+    };
     return (
         <>
             <div className="hero-section ">
@@ -44,12 +52,29 @@ function HomePage() {
                 </div>
             </div>
             <div className="home-services">
-                <Title title="Diva’s Services & Disciplines" />
-                <span>
-                    <p>
-                        With a passion for pushing design boundaries and a focus on sophistication, confidence, and precision, we specialize in crafting bespoke solutions that captivate audiences and elevate your brand.
-                        </p>
-                        </span>
+                <div className="home-services-header two-column-container">
+                    <div className="column column-1">
+                        <Title title="Diva’s Services " />
+                        <h1>& Deciplines</h1>
+                    </div>
+                    <p className="home-services-description column column-2">
+                        With a passion for pushing design boundaries and a focus on sophistication, confidence, and precision,
+                        we specialize in crafting bespoke solutions that captivate audiences and elevate your brand.
+                    </p>
+                </div>
+                <div className="home-services-box">
+
+                    {services.map((service, index) => (
+                        <ExpandableItem
+                            key={index}
+                            title={service.title}
+                            description={service.description}
+                            isExpanded={expandedIndex === index}
+                            onToggle={() => handleToggleExpand(index)}
+                        />
+                    ))}
+                </div>
+
             </div>
             {/* <Footer /> */}
         </>
