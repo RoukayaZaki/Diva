@@ -10,7 +10,8 @@ import ServicePage from './pages/ServicePage'
 import TermsPage from './pages/TermsPage'
 import CareerPage from './pages/Careers/CareerPage'
 import FAQPage from './pages/FAQPage'
-import BlogPage from './pages/BlogPage'
+import BlogPage from './pages/Blogs/BlogPage'
+import PostPage from './pages/Blogs/PostPage'
 import PortfolioPage from './pages/Portfolio/PortfolioPage'
 import ProjectPage from './pages/Portfolio/ProjectPage'
 import JobPage from './pages/Careers/JobPage'
@@ -60,6 +61,10 @@ const BrowserRouter = createBrowserRouter([
   {
     path: 'careers/:id',
     element: <JobPage />,
+  },
+  {
+    path: 'blogs/:id',
+    element: <PostPage />,
   }
 ]);
 

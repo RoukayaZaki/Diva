@@ -4,7 +4,7 @@ function CareerPage() {
     return (
         <>
             <Header />
-            <h1>Career Page</h1>
+                        
         </>
     );
 }
