@@ -13,6 +13,7 @@ function BlogCard({ id, title, image, description }: BlogCardProps) {
         <div className="luxury-card">
             <img src={image} alt={title} className="luxury-card__image" />
             <div className="luxury-card__content">
+                <p>{id}</p>
                 <h2 className="luxury-card__title">{title}</h2>
                 <p className="luxury-card__description">{short}</p>
             </div>
