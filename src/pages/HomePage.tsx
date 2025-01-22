@@ -1,4 +1,4 @@
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../assets/styles/hero.css";
 import Title from "../components/Title";
@@ -94,7 +94,7 @@ function HomePage() {
 
             <Testimonial />
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }

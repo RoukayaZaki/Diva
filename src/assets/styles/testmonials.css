@@ -1,0 +1,107 @@
+.testimonial-container {
+  padding: 5%;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.home-testimonial-header {
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.home-testimonial-header span:first-child {
+  font-size: 5em;
+}
+.home-testimonial-header span {
+  text-transform: uppercase;
+  line-height: .8;
+  font-size: 4em;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+.home-testimonial-header h1 {
+  font-family: voga;
+  font-size: 4em;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: .8;
+  letter-spacing: -2px;
+}
+
+.testimonial-container.even {
+  background-color: var(--cream);
+  /* Even index background */
+}
+.testimonial-container.even button {
+  
+  color: var(--black);
+}
+.testimonial-container.odd button {
+  color: var(--cream);
+}
+.testimonial-container button{
+  background: none; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer;
+  display: inline-flex; 
+  align-items: center; 
+  /* justify-content: center;  */
+  font-size: 1.5rem; 
+  outline: none;
+}
+
+.testimonial-container.odd {
+  background-color: var(--burgundy);
+  /* Odd index background */
+  color: var(--cream) !important;
+}
+.testimonial-container.odd span { 
+  color: var(--cream) !important;
+}
+
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.testimonial-author span:first-child {
+  margin-right: 5px;
+}
+
+.left-testimonial-quote {
+  
+  flex: 1;
+}
+.right-testimonial-quote {
+  justify-content: right;
+  flex: 1;
+}
+.middle-testimonial-quote {
+  justify-content: center;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Poppins";
+  flex: 1;
+}
+
+.testimonial-quote {
+  margin:  18vh 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-quote button {
+  background-color: transparent;
+  
+}
