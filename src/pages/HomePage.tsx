@@ -6,6 +6,7 @@ import Title from "../components/Title";
 import services from '../assets/data/services.json';
 import ExpandableItem from "../components/ExpandableItem";
 import { useState } from "react";
+import Testimonial from "../components/Testmonials";
 
 function HomePage() {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
@@ -76,6 +77,23 @@ function HomePage() {
                 </div>
 
             </div>
+            <div className="stats-container">
+                <div className="stat">
+                    <span className="stat-number">350+</span>
+                    <span className="stat-label">COMPLETED PROJECTS</span>
+                </div>
+                <div className="stat">
+                    <span className="stat-number">07+</span>
+                    <span className="stat-label">YEARS IN OPERATION</span>
+                </div>
+                <div className="stat">
+                    <span className="stat-number">100%</span>
+                    <span className="stat-label">CLIENTS SATISFACTION</span>
+                </div>
+            </div>
+
+            <Testimonial />
+
             {/* <Footer /> */}
         </>
     );

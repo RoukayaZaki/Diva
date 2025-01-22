@@ -6,18 +6,21 @@
 
 .home-services-box {
     border-top: 1px solid var(--black);
-    margin: 0 1%;
+    /* margin: 30%; */
 }
+
 .item-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .item-title span:first-child {
     font-size: 2.8em;
     font-weight: 500;
-    
+
 }
+
 .item-title span {
     font-size: 2.3em;
     /* font-weight: 500; */
@@ -30,9 +33,11 @@
     font-size: 1.5rem;
     transition: transform 0.5s ease;
 }
+
 .item-arrow.expanded {
-    transform: rotate(90deg); /* Rotate the arrow when expanded */
-  }
+    transform: rotate(90deg);
+    /* Rotate the arrow when expanded */
+}
 
 .item-description {
     margin-top: 10px;
