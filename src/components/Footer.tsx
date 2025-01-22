@@ -1,6 +1,6 @@
 import "../assets/styles/footer.css";
-
-
+import image1 from '../assets/images/footer/footer-1.jpg'
+import image2 from '../assets/images/footer/footer-2.jpg'
 const Footer = () => {
   return (
     <footer className="footer">
@@ -13,8 +13,8 @@ const Footer = () => {
           <a href="/faq">FAQ</a>
         </div>
         <div className="footer-images">
-          <img src="src/assets/images/footer/footer-1.jpg" alt="Image 1" />
-          <img src="src/assets/images/footer/footer-2.jpg" alt="Image 2" />
+          <img src={image1} alt="Image 1" />
+          <img src={image2} alt="Image 2" />
         </div>
         <div className="footer-column">
           <a href="/contact">CONTACT</a>
