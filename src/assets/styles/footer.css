@@ -38,7 +38,9 @@
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;
-    max-width: 800px;
+    /* max-width: 800px; */
+    margin: 0 5%;
+    width: 90%;
 }
 
 .footer-column {
@@ -75,8 +77,8 @@
 }
 
 .footer-images img {
-    width: 150px;
-    height: 200px;
+    width: 16em;
+    height: 18em;
     object-fit: cover;
     filter: grayscale(60%);
 }

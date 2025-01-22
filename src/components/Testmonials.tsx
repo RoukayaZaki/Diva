@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import '../assets/styles/testmonials.css';
 import testimonials from '../assets/data/testimonials.json';
 import Title from './Title';
