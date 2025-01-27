@@ -27,6 +27,7 @@
   font-family: voga, edwardian;
   line-height: 1.5;
   font-weight: 400;
+  outline: none;
 
   color-scheme: light dark;
   color: var(--black);
@@ -37,7 +38,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
-
+button {
+  outline: none;
+}
 a {
   font-weight: 500;
   /* color: #646cff; */

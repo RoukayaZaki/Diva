@@ -1,11 +1,10 @@
 import Header from "../../components/Header";
-
+import ProjectSlider from "../../components/ProjectSlider";
 function PortfolioPage() {
     return (
         <>
             <Header />
-            <h1>Portfolio</h1>
-            <p>My portfolio will be here</p>
+            <ProjectSlider />
         </>
     );
 }

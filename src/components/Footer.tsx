@@ -1,6 +1,9 @@
 import "../assets/styles/footer.css";
 import image1 from '../assets/images/footer/footer-1.jpg'
 import image2 from '../assets/images/footer/footer-2.jpg'
+import { FaFacebook, FaBehance, FaInstagram, FaPinterest, FaDribbble } from 'react-icons/fa'
+import { HiMail } from 'react-icons/hi'
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -22,21 +25,25 @@ const Footer = () => {
           <a href="/portfolio">OUR PORTFOLIO</a>
         </div>
       </div>
+
       <div className="footer-socials">
+      <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
+          <FaDribbble />
+        </a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-facebook"></i>
+          <FaFacebook />
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-instagram"></i>
+          <FaInstagram />
         </a>
         <a href="https://behance.net" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-behance"></i>
+          <FaBehance />
         </a>
         <a href="mailto:email@example.com">
-          <i className="fas fa-envelope"></i>
+          <HiMail />
         </a>
         <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-pinterest"></i>
+          <FaPinterest />
         </a>
       </div>
     </footer>

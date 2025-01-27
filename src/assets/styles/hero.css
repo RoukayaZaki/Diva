@@ -177,8 +177,8 @@
     padding: 0% 5% 10% 5%;
     min-height: 100vh;
     background-color: var(--burgundy);
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     color: var(--cream) !important;
     align-items: center;
     justify-content: center;
@@ -311,4 +311,11 @@
     margin-top: 5px;
     font-family: "Poppins";
 
+}
+
+
+/* Add this to your CSS file */
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
 }
