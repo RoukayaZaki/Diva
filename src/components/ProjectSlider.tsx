@@ -3,8 +3,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import projects from '../assets/data/highlighted_projects.json';
 import ProjectCard from './ProjectCard';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 // Custom Previous Arrow
