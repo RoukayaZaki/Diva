@@ -8,7 +8,7 @@ type ProjectCardProps = {
 }
 
 function ProjectCard({ image, title, id }: ProjectCardProps) {
-    console.log(image);
+    // console.log(image);
     return (
         <div className="project-card">
             <img key={id} src={image} alt={title} />

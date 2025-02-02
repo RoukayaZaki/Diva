@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../assets/styles/hero.css";
 import Title from "../components/Title";
-// import ProjectSlider from "../components/ProjectSlider";
+import ProjectSlider from "../components/ProjectSlider";
 import services from '../assets/data/services.json';
 import ExpandableItem from "../components/ExpandableItem";
 import { useState } from "react";
@@ -45,11 +45,15 @@ function HomePage() {
                 </div>
             </div>
             <div className="home-portfolio">
-                <p>
-                    Stories We've Crafted
-                </p>
-                <Title title="Portfolio" />
+                <div className="home-portfolio-title">
+
+                    <p>
+                        Stories We've Crafted
+                    </p>
+                    <Title title="Portfolio" />
+                </div>
                 <div className="home-projects">
+                    <ProjectSlider />
                 </div>
             </div>
             <div className="home-services">
