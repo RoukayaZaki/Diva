@@ -130,6 +130,7 @@
     color: var(--cream) !important;
 } */
 
+
 .home-about {
     display: flex;
     align-items: flex-end;
@@ -326,4 +327,137 @@
 .slider-container {
   width: 80%;
   margin: 0 auto;
+}
+
+
+@media (max-width: 1050px) {
+    
+    .box p {
+        font-size: 1.1em !important;
+    }
+    .hero-text h1 {
+        font-size: clamp(5rem, 15vw, 20rem) !important ;
+    }
+    .hero-text span {
+        font-size: clamp(6rem, 16vw, 20rem) !important;
+        
+    }
+    .hero-text {
+        line-height: .8;
+        letter-spacing: -0.15em;
+    }
+    .home-about {
+        padding: 20% 10%;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+    .home-about-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        padding: 0;
+    }
+    .home-about-left p {
+        text-align: center;
+        font-size: 1.1em;
+        /* padding: 2% 0; */
+    }
+    .home-about-left h1 {
+        padding-top: 2%;
+        text-align: center;
+        font-size: clamp(4rem, 9vw, 10rem);
+    }
+    .home-about-right p {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .home-about-right {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+    }
+    .home-portfolio-title {
+        padding-top: 3%;
+    }
+    .home-portfolio-title p {
+        font-family: "Poppins";
+        text-transform: uppercase;
+        line-height: 3;
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+    
+    .home-portfolio-title span:first-child {
+        color: var(--cream) !important;
+        font-size: clamp(6em, 8vh, 20em) !important;
+        line-height: .8;
+        text-transform: uppercase;
+    }
+    
+    .home-portfolio-title span {
+        color: var(--cream) !important;
+        font-size: clamp(4em, 7vh, 20em) !important;
+        line-height: .8;
+        text-transform: uppercase;
+    }
+    .home-portfolio {
+        padding: 13% 5%;
+        min-height: auto;
+    }
+    .home-projects {
+        min-height: auto;
+    }
+    .home-services {
+        padding-bottom: 5%;
+    }
+    .home-services-header {
+        padding: 15% 5% 3% 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .home-services-title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* flex: none; */
+    }
+    .home-services-description {
+        padding-top: 7%;
+    }
+    .column-1 {
+        flex: none;
+    }
+    .two-column-container {
+        align-items: center;
+    }
+    .stats-container {
+        flex-direction: column;
+        padding: 5% 0;
+    }
+    .stat {
+        border-right: none;
+        flex: 1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--cream);
+        padding: 7%;
+    
+        /* border-right: 1px solid radial-gradient(var(--cream), var(--black)); */
+        /* border-image: linear-gradient(to top, #fff 50%, #000 50%) 100% 1; */
+    }
+    
+    .stat:last-child {
+        border-bottom: 0px;
+    }
+    
 }

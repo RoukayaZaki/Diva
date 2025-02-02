@@ -15,6 +15,7 @@ import PostPage from './pages/Blogs/PostPage'
 import PortfolioPage from './pages/Portfolio/PortfolioPage'
 import ProjectPage from './pages/Portfolio/ProjectPage'
 import JobPage from './pages/Careers/JobPage'
+import PolicyPage from './pages/PolicyPage'
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const BrowserRouter = createBrowserRouter([
   {
     path: 'blogs/:id',
     element: <PostPage />,
+  },
+  {
+    path: 'policy',
+    element: <PolicyPage />
   }
 ]);
 

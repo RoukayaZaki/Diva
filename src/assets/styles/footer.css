@@ -37,10 +37,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
+    
     /* max-width: 800px; */
-    margin: 0 5%;
-    width: 90%;
+    margin: 3% 9%;
+
+    width: 82%;
 }
 
 .footer-column {
@@ -77,8 +78,8 @@
 }
 
 .footer-images img {
-    width: 16em;
-    height: 18em;
+    aspect-ratio: 1/1;
+    width: 40%;
     object-fit: cover;
     filter: grayscale(60%);
 }
@@ -115,4 +116,16 @@
     padding: 20px 0;
     font-size: 14px;
     color: var(--cream);
+}
+
+@media (max-width: 1050px) {
+    
+    .footer-copyright-line {
+        margin: 3% 5% 0  0;
+    }
+    .footer-title {
+        font-size: clamp(2rem, 13vw, 20rem);
+
+    }
+
 }

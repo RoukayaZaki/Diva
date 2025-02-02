@@ -58,9 +58,12 @@ function HomePage() {
             </div>
             <div className="home-services">
                 <div className="home-services-header two-column-container">
-                    <div className="column column-1">
-                        <Title title="Diva’s Services " />
-                        <h1>& Deciplines</h1>
+                    <div className=" column column-1">
+                        <div className="home-services-title">
+
+                            <Title title="Diva’s Services " />
+                            <h1>& Deciplines</h1>
+                        </div>
                     </div>
                     <p className="home-services-description column column-2">
                         With a passion for pushing design boundaries and a focus on sophistication, confidence, and precision,
