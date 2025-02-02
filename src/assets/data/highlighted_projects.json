@@ -1,22 +1,22 @@
 [
     {
         "id": "1",
-        "image": "./portfolio/project1.jpg",
+        "image": "./images/portfolio/project1.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "2",
-        "image": "../portfolio/project2.jpg",
+        "image": "../images/portfolio/project2.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "3",
-        "image": "public/portfolio/project3.jpg",
+        "image": "public/images/portfolio/project3.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "4",
-        "image": "/portfolio/project1.jpg",
+        "image": "/images/portfolio/project1.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
