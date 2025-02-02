@@ -46,6 +46,10 @@ const Footer = () => {
           <FaPinterest />
         </a>
       </div>
+      <div className="footer-copyright-line"></div>
+      <div className="footer-copyright">
+        <p>Copyright © 2025 Diva Solutions | All rights reserved.</p>
+      </div>
     </footer>
   );
 };

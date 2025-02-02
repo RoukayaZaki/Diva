@@ -2,7 +2,7 @@
     background-color: var(--black);
     color: var(--cream);
     text-align: center;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     font-family: "Poppins";
     
 }
@@ -23,7 +23,7 @@
 .footer-inquiry {
     color: var(--cream);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     font-size: .8em;
     text-decoration: underline;
     margin-bottom: 20px;
@@ -102,4 +102,17 @@
     border-radius: 50%;
     width: 1.4em;
     height: 1.3em;
+}
+.footer-copyright-line {
+
+    margin-right: 25%;
+    margin-top: 20px;
+    border-top: 1px solid var(--cream);
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: var(--cream);
 }

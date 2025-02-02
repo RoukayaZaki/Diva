@@ -45,10 +45,13 @@ function HomePage() {
                 </div>
             </div>
             <div className="home-portfolio">
-                <p>
-                    Stories We've Crafted
-                </p>
-                <Title title="Portfolio" />
+                <div className="home-portfolio-title">
+
+                    <p>
+                        Stories We've Crafted
+                    </p>
+                    <Title title="Portfolio" />
+                </div>
                 <div className="home-projects">
                     <ProjectSlider />
                 </div>
