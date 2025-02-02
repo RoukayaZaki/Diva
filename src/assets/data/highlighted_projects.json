@@ -1,32 +1,32 @@
 [
     {
         "id": "1",
-        "image": "src/assets/images/portfolio/project1.jpg",
+        "image": "/assets/images/portfolio/project1.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "2",
-        "image": "src/assets/images/portfolio/project2.jpg",
+        "image": "/assets/images/portfolio/project2.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "3",
-        "image": "src/assets/images/portfolio/project3.jpg",
+        "image": "/assets/images/portfolio/project3.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "4",
-        "image": "src/assets/images/portfolio/project1.jpg",
+        "image": "/assets/images/portfolio/project1.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "5",
-        "image": "src/assets/images/portfolio/project2.jpg",
+        "image": "/assets/images/portfolio/project2.jpg",
         "title": "STORIES WE'VE CRAFTED"
     },
     {
         "id": "6",
-        "image": "src/assets/images/portfolio/project3.jpg",
+        "image": "/assets/images/portfolio/project3.jpg",
         "title": "STORIES WE'VE CRAFTED"
     }
 ]
