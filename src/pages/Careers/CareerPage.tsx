@@ -38,9 +38,6 @@ function CareerPage() {
                 </div>
             </div>
             <div className="career-about">
-                {/* <h1>
-                    Join Our Team of Innovators and Creatives
-                </h1> */}
                 <p>
                     At Diva, we actively seek passionate individuals who share our dedication to sophistication, confidence, and precision in design and technology. Our dynamic environment fosters creativity, where collaboration, mutual respect, and idea-sharing are core values. Join us for opportunities to grow professionally, continuously learn, and advance your career while contributing to impactful projects that resonate with high-profile brands and their audiences.
                 </p>

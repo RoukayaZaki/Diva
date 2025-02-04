@@ -94,14 +94,14 @@
     padding-top: .5%;
     color: var(--burgundy);
     font-family: edwardian;
-    font-size: clamp(4rem, 6vw, 20rem);
+    font-size: clamp(1rem, 6vw, 20rem);
     font-weight: 500;
 }
 
 .career-positions-header h1 {
     color: var(--black);
     font-family: voga;
-    font-size: clamp(3rem, 5vw, 20rem);
+    font-size: clamp(1rem, 5vw, 20rem);
     font-weight: 500;
 }
 
@@ -247,4 +247,51 @@ span {
     transform: rotate(-90deg);
     color: var(--cream);
     /* Rotate the arrow by 90 degrees */
+}
+
+@media (max-width: 1050px) {
+    .career-about p {
+        text-align: left;
+    }
+    .career-positions-header {
+        justify-content: left;
+        margin-left: 10%;
+    }
+    
+    .job-item-data {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .job-item-details {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .benefits-container {
+        flex-direction: column;
+    }
+    .benefit-title {
+        font-size: clamp(1em, 6vw, 10em);
+        height: auto;
+        padding-bottom: 1%;
+        align-items: center;
+    }
+    .benefit-title.italic {
+        font-family: edwardian;
+        font-size: clamp(1em, 6vw, 10em);
+        align-items: center;
+    }
+    .benefits-title h2 {
+        font-family: edwardian;
+        font-size: clamp(2rem, 6vw, 20rem);
+        font-weight: 500;
+        padding-top: .5%;
+    }
+    
+    .benefits-title h1 {
+        font-family: voga;
+        font-size: clamp(2rem, 5vw, 20rem);
+        
+    }
+   
 }
