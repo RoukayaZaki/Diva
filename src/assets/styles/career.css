@@ -283,15 +283,46 @@ span {
     }
     .benefits-title h2 {
         font-family: edwardian;
-        font-size: clamp(2rem, 6vw, 20rem);
+        font-size: clamp(3rem, 6vw, 20rem);
         font-weight: 500;
         padding-top: .5%;
     }
     
     .benefits-title h1 {
         font-family: voga;
-        font-size: clamp(2rem, 5vw, 20rem);
+        font-size: clamp(3rem, 5vw, 20rem);
         
+    }
+    .benefits-section {
+        padding: 15% 0;
+    }
+
+    .career-positions-header h2 {
+        padding-top: .5%;
+        color: var(--burgundy);
+        font-family: edwardian;
+        font-size: clamp(3rem, 6vw, 20rem);
+        font-weight: 500;
+    }
+    
+    .career-positions-header h1 {
+        color: var(--black);
+        font-family: voga;
+        font-size: clamp(3rem, 5vw, 20rem);
+        font-weight: 500;
+    }
+    .career-header {
+        flex-direction: column;
+        line-height: 1;
+    }
+    .career-header h2 {
+        font-size: clamp(4rem, 10vw, 20rem);
+
+    }
+    
+    .career-header h1 {
+        font-size: clamp(3rem, 9vw, 20rem);
+    
     }
    
 }

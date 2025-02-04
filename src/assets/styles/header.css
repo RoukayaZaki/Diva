@@ -78,7 +78,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-size: clamp(1rem, 6vw, 10rem);
     }
+
+    
+
     .mobile-header-hamburger {
         font-weight: 100;
     }
