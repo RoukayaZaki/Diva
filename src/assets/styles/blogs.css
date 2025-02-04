@@ -41,7 +41,7 @@
     width: 100%;
     height: 90vh;
     object-fit: fill;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--cream);
   }
   
   .luxury-card__content {
@@ -55,6 +55,7 @@
     /* font-weight: bold; */
     font-family: voga;
     color: var(--black);
+    letter-spacing: -2px;
     margin: 10px 0;
   }
   

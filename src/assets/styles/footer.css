@@ -4,6 +4,8 @@
     text-align: center;
     /* padding: 20px 20px; */
     font-family: "Poppins";
+    font-weight: 300;
+    /* max-height: 100vh; */
     
 }
 
@@ -14,10 +16,7 @@
     font-weight: 400;
     letter-spacing: .1rem;
     white-space: nowrap;
-    /* Prevents text from wrapping */
-    /* overflow: hidden; */
-    /* Optional: hides overflow if the text is too large */
-    /* text-overflow: ellipsis; */
+    
 }
 
 .footer-inquiry {
@@ -106,7 +105,7 @@
 }
 .footer-copyright-line {
 
-    margin-right: 25%;
+    /* margin-right: 25%; */
     margin-top: 20px;
     border-top: 1px solid var(--cream);
 }
