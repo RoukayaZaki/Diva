@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
+    /* list-style: none; */
     text-decoration: none;
     /* color: var(--black); */
 }
@@ -73,12 +73,12 @@
 @media (max-width: 1050px) {
     
     .mobile-header {
-        font-size: 2.9em;
+        /* font-size: 2.9em; */
         margin: 2% 5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: clamp(1rem, 6vw, 10rem);
+        font-size: clamp(1rem, 5vw, 10rem);
     }
 
     

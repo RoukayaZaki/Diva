@@ -29,7 +29,7 @@ function DesktopFooter() {
       </div>
 
       <div className="footer-socials">
-      <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
           <FaDribbble />
         </a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

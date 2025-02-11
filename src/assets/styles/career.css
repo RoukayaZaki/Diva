@@ -153,20 +153,21 @@
 }
 
 .benefit-id {
-    border-bottom: 1px solid var(--cream);
     display: block;
-    font-size: 1.5em;
+    font-size: .9em;
     color: var(--cream);
 }
 
 .benefit-title {
+    border-top: 1px solid var(--cream);
+    border-bottom: 1px solid var(--cream);
+    padding: 2.5% 0 3% 0;
     font-size: clamp(2.9em, 3vw, 10em);
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: voga;
     font-weight: 500;
     line-height: .9;
     height: clamp(6rem, 10vh, 10rem);
-    border-bottom: 1px solid var(--cream);
 }
 
 .benefit-title.italic {
@@ -224,7 +225,7 @@
 
 .job-item-data h1 {
     font-family: voga;
-    font-size: clamp(1rem, 2vw, 20rem);
+    font-size: clamp(1.2rem, 2vw, 20rem);
     font-weight: 500;
     color: var(--burgundy);
 }
@@ -232,7 +233,7 @@
 .job-item-data p,
 span {
     font-family: "Poppins";
-    font-size: clamp(.5rem, 1vw, 20rem);
+    font-size: clamp(.6rem, 1vw, 20rem);
     font-weight: 300;
 }
 
@@ -240,7 +241,7 @@ span {
     display: inline-block;
     transition: transform 0.3s ease;
     color: var(--burgundy);
-    font-size: clamp(1rem, 2vw, 20rem);    /* Smooth transition for rotation */
+    font-size: clamp(1.2rem, 2vw, 20rem);    /* Smooth transition for rotation */
 }
 
 .job-item:hover .job-item-arrow {
@@ -259,13 +260,34 @@ span {
     }
     
     .job-item-data {
+        display: flex;
         justify-content: space-between;
         align-items: center;
     }
+    .job-item-data h1 {
+        font-size: clamp(1.4rem, 4vw, 20rem);
+      
+    }
+    
+    .job-item-data p,
+    span {
+        font-size: clamp(.6rem, 2.5vw, 20rem);
+        
+    }
     .job-item-details {
-        align-items: center;
+        /* flex: 1; */
+        padding: 3% 0;
+        /* line-height: 120%; */
+        display: flex;
+        flex-direction: column;
+        align-self: center;
         justify-content: center;
         text-align: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /* padding: 3% 0; */
+        /* vertical-align:middle; */
+        /* line-height: 1.5; */
     }
     .benefits-container {
         flex-direction: column;
@@ -273,7 +295,7 @@ span {
     .benefit-title {
         font-size: clamp(1em, 6vw, 10em);
         height: auto;
-        padding-bottom: 1%;
+        /* padding-bottom: 1%; */
         align-items: center;
     }
     .benefit-title.italic {
@@ -296,19 +318,22 @@ span {
     .benefits-section {
         padding: 15% 0;
     }
+    .career-positions {
+        margin: 10% 0 15% 0;
+    }
 
     .career-positions-header h2 {
-        padding-top: .5%;
+        padding-top: .9%;
         color: var(--burgundy);
         font-family: edwardian;
-        font-size: clamp(3rem, 6vw, 20rem);
+        font-size: clamp(2.5rem, 6vw, 20rem);
         font-weight: 500;
     }
     
     .career-positions-header h1 {
         color: var(--black);
         font-family: voga;
-        font-size: clamp(3rem, 5vw, 20rem);
+        font-size: clamp(2.5rem, 5vw, 20rem);
         font-weight: 500;
     }
     .career-header {

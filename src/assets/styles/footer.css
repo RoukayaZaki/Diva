@@ -87,6 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
     gap: 20px;
     margin-top: 3%;
 }
@@ -95,13 +96,14 @@
     font-size: 1.1em;
     /* text-decoration: none; */
     background-color: var(--cream);
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    align-self: center;
+    justify-self: center;
     color: var(--black);
-
+    padding: .1%;
     border-radius: 50%;
-    width: 1.4em;
-    height: 1.3em;
+    width: 1.2em;
+    height: 1.2em;
 }
 .footer-copyright-line {
 

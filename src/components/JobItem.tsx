@@ -1,5 +1,6 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-router-dom";
 
 type JobItemProps = {
     id: number,
@@ -8,13 +9,14 @@ type JobItemProps = {
 };
 
 const JobItem = ({ id, title, types }: JobItemProps) => {
+    id++;
     let formattedNumber = id.toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
     });
     const isMobile = useMediaQuery({ maxWidth: 1050 });
     return (
-
+        <Link to={`/careers/${id}`} >
         <div className="job-item">
             {!isMobile && (
 
@@ -54,11 +56,14 @@ const JobItem = ({ id, title, types }: JobItemProps) => {
                         <h1>
                             {title}
                         </h1>
+                        <div>
+
                         {types.map((type) => (
                             <span>
                                 ({type})
                             </span>
                         ))}
+                        </div>
                     </div>
                     <div className="job-item-arrow">
 
@@ -70,6 +75,7 @@ const JobItem = ({ id, title, types }: JobItemProps) => {
             )}
             <div className="job-item-line" />
         </div>
+        </Link>
     );
 };
 
