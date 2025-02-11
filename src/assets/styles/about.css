@@ -1,0 +1,172 @@
+
+.about-header {
+    color: var(--cream);
+    flex: .9;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.about-header h2 {
+    font-family: edwardian;
+    font-size: clamp(2rem, 10vw, 20rem);
+    font-weight: 500;
+    padding-top: 1%;
+    /* align-items: ; */
+}
+
+.about-header h1 {
+    font-family: voga;
+    font-size: clamp(2rem, 9vw, 20rem);
+    font-weight: 500;
+
+}
+.about-about {
+    display: flex;
+    align-items: center;
+    padding: 6% 11%;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: voga;
+    font-weight: 300;
+    color: var(--cream);
+    background-color: var(--black);
+    line-height: .9;
+    font-size: clamp(1.5em, 2.3vw, 3em);
+}
+/* .about-about span {
+    font-family: edwardian;
+    font-weight: 300;
+    font-size:1.5em;
+} */
+
+.about-philosophy-section {
+    background-color: var(--cream);
+    padding: 5%;
+    text-align: center;
+}
+
+.about-philosophies-title {
+    display: flex;
+    /* color: var(--burgundy); */
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem, 3vw, 10rem);
+}
+
+.about-philosophies-title h2 {
+    font-family: edwardian;
+    font-size: clamp(4rem, 6vw, 20rem);
+    font-weight: 500;
+    padding-top: .5%;
+}
+
+.about-philosophies-title h1 {
+    font-family: voga;
+    font-size: clamp(3rem, 5vw, 20rem);
+    font-weight: 500;
+}
+
+.about-philosophy-container {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    text-align: left;
+    margin: 3% 5%;
+}
+
+.about-philosophy-card {
+    flex: 1;
+    margin: 2% 3%;
+    padding-top: 20px;
+    font-family: voga;
+    font-weight: 500;
+}
+
+.about-philosophy-id {
+    display: block;
+    font-size: .9em;
+    color: var(--black);
+}
+
+.about-philosophy-title {
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+    color: var(--burgundy);
+    padding: 1% 0 1% 0;
+    font-size: clamp(2.9em, 3.5vw, 10em);
+    margin-top: 5px;
+    font-family: voga;
+    font-weight: 500;
+    line-height: .9;
+    text-align: left;
+    justify-content: left;
+    height: clamp(3rem, 8vh, 10rem);
+}
+
+.about-philosophy-title.italic {
+    font-family: edwardian;
+    font-size: clamp(3em, 3.5vw, 10em);
+}
+
+.about-philosophy-description {
+    font-size: 14px;
+    color: var(--black);
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+@media (max-width: 1050px) {
+    
+
+    .about-philosophy-container {
+        flex-direction: column;
+    }
+    .about-philosophy-title {
+        font-size: clamp(1em, 6vw, 10em);
+        height: auto;
+        /* padding-bottom: 1%; */
+        align-items: center;
+    }
+    .about-philosophy-title.italic {
+        font-family: edwardian;
+        font-size: clamp(1em, 6vw, 10em);
+        align-items: center;
+    }
+    .about-philosophy-title h2 {
+        font-family: edwardian;
+        font-size: clamp(3rem, 6vw, 20rem);
+        font-weight: 500;
+        padding-top: .5%;
+    }
+    
+    .about-philosophies-title h1 {
+        font-family: voga;
+        font-size: clamp(3rem, 5vw, 20rem);
+        
+    }
+    .about-philosophy-section {
+        padding: 15% 0;
+    }
+   
+    .about-philosophies-title {
+        font-size: clamp(2rem, 7vw, 20rem);
+    }
+    .about-header h2 {
+        font-size: clamp(4rem, 10vw, 20rem);
+
+    }
+    
+    .about-header h1 {
+        font-size: clamp(3rem, 9vw, 20rem);
+    
+    }
+   
+}

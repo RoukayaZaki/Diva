@@ -1,6 +1,6 @@
 import "../assets/styles/item.css";
-// import Title from "./Title";
-import {  IoIosArrowRoundForward } from "react-icons/io";
+import { useMediaQuery } from 'react-responsive';
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 type ExpandableItemProps = {
     title: string;
@@ -11,13 +11,16 @@ type ExpandableItemProps = {
 
 const JobExpandableItem = ({ title, description, isExpanded, onToggle }: ExpandableItemProps) => {
     let isApplication = title === "Application";
+    const isMobile = useMediaQuery({ maxWidth: 1050 });
+
     return (
         <div className="jobpage-expandable-item">
+               
             <div className="jobpage-item-header" onClick={onToggle}>
                 <div className="jobpage-item-title">
                     {title}
                 </div>
-                {isExpanded && (
+                {isExpanded && !isMobile && (
                     <div className={`jobpage-item-description ${isApplication ? "app" : ""}`}>
                         <ul>
 
@@ -30,9 +33,23 @@ const JobExpandableItem = ({ title, description, isExpanded, onToggle }: Expanda
                     </div>
                 )}
                 <div className={`jobpage-item-arrow ${isExpanded ? "expand" : ""}`}>
-                    <IoIosArrowRoundForward className="jobpage-item-arrow-icon"/>
+                    <IoIosArrowRoundForward className="jobpage-item-arrow-icon" />
                 </div>
             </div>
+            {isExpanded && isMobile && (
+                <div className={`jobpage-item-description ${isApplication ? "app" : ""}`}>
+                    <ul>
+
+                        {description.map((item) => (
+                            <li>
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )
+
+            }
 
         </div>
     );

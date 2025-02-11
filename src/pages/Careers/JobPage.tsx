@@ -9,6 +9,7 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 import Title from "../../components/Title";
 import JobExpandableItem from "../../components/JobExpandableItem";
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 
 function JobPage() {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
@@ -19,6 +20,9 @@ function JobPage() {
     const { id } = useParams();
     const jobIndex = parseInt(id!, 10);
     const job = jobs[jobIndex - 1];
+
+    const isMobile = useMediaQuery({ maxWidth: 1050 });
+
     return (
         <>
             <Header />
@@ -26,6 +30,10 @@ function JobPage() {
             <div className="job-card">
                 <Link to="/careers" className="back-link"> <IoIosArrowRoundBack className="back-arrow-career" /> Back To Careers</Link>
                 <div className="job-data">
+                    {isMobile &&
+                        (
+                            <div className="jobpage-item-line" />
+                        )}
                     <div className="job-header">
                         <h1 className="job-title">
                             <Title title={job.title} />

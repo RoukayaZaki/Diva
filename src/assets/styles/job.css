@@ -1,5 +1,5 @@
 .job-card {
-    margin: 20px 10%;
+    margin: 20px 5%;
     padding: 20px;
 
 }
@@ -35,7 +35,6 @@
     border-bottom: 1px solid var(--black);
     padding: 1% 0;
     align-items: flex-end;
-
 }
 
 .job-title {
@@ -60,9 +59,13 @@
 }
 
 .job-description {
-    margin-top: 15px;
-    color: #333;
+    margin: 1% 0 6% 0;
+    color: var(--black);
     line-height: 1.5;
+    font-family: "Poppins";
+    font-size: .8em;
+    text-align: justify;
+
 }
 
 
@@ -121,6 +124,7 @@
     font-size: .9em;
     color: var(--black);
     font-family: "Poppins";
+    text-align: justify;
     /* padding: 0 2em; */
     /* padding-bottom: 2%; */
     font-weight: 300;
@@ -145,4 +149,35 @@
 
 .jobpage-item-line {
     border-bottom: 1px solid var(--black);
+}
+
+@media (max-width: 1050px) {
+    .jobpage-item-description {
+        margin: 3% 2% 4% 5%;
+    }
+    .job-header {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding: 3% 0;
+    }
+    .job-meta {
+        padding-left: 1%;
+        font-size: clamp(.8em, 1.4vw, 20em);
+    }
+    .job-title {
+        margin-bottom: 2%;
+        font-size: clamp(2rem, 6vw, 20rem);
+    }
+    .back-link {
+        font-size: clamp(.3rem, 1.9vw, 1.3rem);
+        max-width: 25%;
+        margin-bottom: 0;
+    }
+    .back-arrow-career {
+        font-size: clamp(.1rem, 1.9vw, 1.3rem);
+    }
+    .job-description {
+        margin: 2% 0 8% 0;
+    }
 }
