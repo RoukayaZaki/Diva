@@ -1,0 +1,148 @@
+.job-card {
+    margin: 20px 10%;
+    padding: 20px;
+
+}
+
+.back-link {
+    display: flex;
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: clamp(.1rem, .8vw, 1rem);
+    align-items: center;
+    max-width: 11%;
+    justify-content: space-between;
+}
+
+.back-arrow-career {
+    font-size: clamp(.1rem, 1.1vw, 1.3rem);
+    font-weight: 100;
+}
+
+.job-data {
+    margin: 7% 0;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    line-height: .8;
+    font-family: "Poppins";
+    font-weight: 300;
+    border-bottom: 1px solid var(--black);
+    padding: 1% 0;
+    align-items: flex-end;
+
+}
+
+.job-title {
+    flex: 1;
+    font-size: clamp(1rem, 3vw, 10rem);
+    display: flex;
+    align-items: flex-end;
+    /* margin-bottom: 5px; */
+}
+
+.job-meta {
+    flex: 1;
+    justify-content: right;
+    /* padding-top: 2%; */
+    font-size: clamp(.3rem, .9vw, 20rem);
+    display: flex;
+    color: var(--black);
+    padding-bottom: .6%;
+    align-items: center;
+    /* height: 100%; */
+    /* align-items: ; */
+}
+
+.job-description {
+    margin-top: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/* .job-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.job-list li {
+    margin-bottom: 5px;
+    color: #444;
+} */
+
+.jobpage-item-header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* margin: 0% 5%; */
+}
+
+.jobpage-expandable-item {
+    padding-bottom: .3%;
+    border-bottom: 1px solid var(--black);
+    /* padding: 4px 0; */
+    /* cursor: pointer; */
+}
+
+
+.jobpage-item-arrow {
+    color: var(--black);
+    /* flex-shrink: 0; */
+    font-size: 1.2rem;
+    /* transition: transform 1s ease; */
+    /* padding-top: .5%; */
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-self: center;
+    transform-origin: center top;
+    transition: transform 0.3s ease;
+}
+
+.jobpage-item-arrow.expand .jobpage-item-arrow-icon{
+    transform: rotate(90deg);
+    align-self: flex-start;
+}
+
+.jobpage-item-arrow.expand {
+    align-self: flex-start;
+    padding-top: 1%;
+}
+.jobpage-item-description {
+    padding: 1.5% 0;
+    font-size: .9em;
+    color: var(--black);
+    font-family: "Poppins";
+    /* padding: 0 2em; */
+    /* padding-bottom: 2%; */
+    font-weight: 300;
+    /* text-align: justify; */
+    flex: 6;
+}
+.jobpage-item-description ul {
+    list-style:disc !important;
+}
+.jobpage-item-description.app ul {
+    list-style:none !important;
+}
+.jobpage-item-title {
+    flex: 3;
+    font-size: 2em;
+    font-family: voga;
+}
+
+.job-expandable-items {
+    margin: 5% 0;
+}
+
+.jobpage-item-line {
+    border-bottom: 1px solid var(--black);
+}

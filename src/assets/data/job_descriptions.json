@@ -33,7 +33,9 @@
             "Opportunities for professional growth and development through ongoing training and mentorship.",
             "Join a dynamic and creative team that values innovation, creativity, and excellence."
         ],
-        "application": "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Brand Identity Designer - [Your Full Name]'."
+        "application": [
+            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Brand Identity Designer - [Your Full Name]'."
+        ]
     },
     {
         "title": "Graphic Designer",
@@ -70,7 +72,9 @@
             "Opportunities for professional growth and development through ongoing training and mentorship.",
             "Join a dynamic and creative team that values innovation, creativity, and excellence."
         ],
-        "application": "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Graphic Designer - [Your Full Name]'."
+        "application": [
+            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Graphic Designer - [Your Full Name]'."
+        ]
     },
     {
         "title": "UI/UX Designer",
@@ -107,7 +111,9 @@
             "Opportunities for professional growth and development through ongoing training and mentorship.",
             "Join a dynamic and creative team that values innovation, creativity, and excellence."
         ],
-        "application": "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for UI/UX Designer - [Your Full Name]'."
+        "application": [
+            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for UI/UX Designer - [Your Full Name]'."
+        ]
     },
     {
         "title": "Front-end Developer",
@@ -144,7 +150,9 @@
             "Opportunities for professional growth and development through ongoing training and mentorship.",
             "Join a dynamic and creative team that values innovation, creativity, and excellence."
         ],
-        "application": "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Front-end Developer - [Your Full Name]'."
+        "application": [
+            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Front-end Developer - [Your Full Name]'."
+        ]
     },
     {
         "title": "Back-end Developer",
@@ -183,6 +191,8 @@
             "Opportunities for professional growth and development through ongoing training and mentorship.",
             "Join a dynamic and creative team that values innovation, creativity, and excellence."
         ],
-        "application": "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Back-end Developer - [Your Full Name]'."
+        "application": [
+            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Back-end Developer - [Your Full Name]'."
+        ]
     }
 ]
