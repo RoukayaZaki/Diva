@@ -1,0 +1,95 @@
+[
+    {
+      "title": "Brand Strategy",
+      "Brand Core": [
+        "Brand purpose",
+        "Brand Core values",
+        "Brand statements",
+        "Brand unique value proposition",
+        "Brand key messages"
+      ],
+      "Brand Persona": [
+        "Brand Personality",
+        "Brand tone of voice",
+        "Brand Archetype",
+        "Brand Story/concept",
+        "Brand tagline"
+      ],
+      "Brand Positioning": [
+        "Market analysis",
+        "Target audience",
+        "Brand Competition map"
+      ]
+    },
+    {
+      "title": "Brand Identity",
+      
+      "Brand Identity System": [
+        "Logo design",
+        "Color scheme",
+        "Typography",
+        "Layout guidelines",
+        "Patterns and graphic elements",
+        "Brand guidelines document",
+        "Illustrations, 3D designs, and motion graphics"
+      ],
+      "Art direction": [
+        "Photography / Social Media standards",
+        "Interior design guidelines"
+      ],
+      "Collaterals": [
+        "Stationery design",
+        "Packaging design",
+        "Employee uniforms",
+        "Marketing materials / Social media designs",
+        "Print production (Posters, Menus, brochures and more)"
+      ]
+    },
+    {
+      "title": "Website Creation",
+      "Website Services": [
+        "Custom website design",
+        "Responsive design (mobile-friendly)",
+        "UI/UX Website design",
+        "E-commerce solutions",
+        "SEO (Search Engine Optimization)",
+        "Landing page design",
+        "Website redesign services",
+        "WordPress Websites"
+      ],
+      "Web Development": [
+        "Front-end development",
+        "Back-end development",
+        "API integration"
+      ],
+      "Maintenance and Features": [
+        "Bug fixing and troubleshooting",
+        "Performance optimization",
+        "Chatbot integration / Booking and scheduling systems",
+        "Membership and subscription systems"
+      ]
+    },
+     {
+      "title": "Design Solutions",
+      "Design Solutions Services": [
+        "Custom graphic design (ex. presentations)",
+        "Print design (brochures, flyers, menus, posters, etc....)",
+        "Infographic design",
+        "Packaging design",
+        "Digital design (social media graphics, web banners)",
+        "Illustrations, 3D designs, and motion graphics",
+        "Stationery design",
+        "Patterns and graphic elements",
+        "Exhibition design",
+        "Instagram Story Templates",
+        "Thank you / Voucher cards"
+      ],
+      "Marketing and Advertising Design": [
+        "Ad campaign design",
+        "Promotional materials",
+        "Point of sale (POS) materials",
+        "Event and trade show graphics",
+        "Creative direction for campaigns"
+      ]
+    }
+  ]

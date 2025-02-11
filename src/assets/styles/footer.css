@@ -10,7 +10,7 @@
 }
 
 .footer-title {
-    font-size: clamp(4rem, 13vw, 20rem);
+    font-size: clamp(4rem, 13.3vw, 20rem);
     opacity: 50%;
     font-family: voga;
     font-weight: 400;

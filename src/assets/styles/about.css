@@ -12,7 +12,7 @@
 
 .about-header h2 {
     font-family: edwardian;
-    font-size: clamp(2rem, 10vw, 20rem);
+    font-size: clamp(2rem, 8vw, 20rem);
     font-weight: 500;
     padding-top: 1%;
     /* align-items: ; */
@@ -20,14 +20,14 @@
 
 .about-header h1 {
     font-family: voga;
-    font-size: clamp(2rem, 9vw, 20rem);
+    font-size: clamp(2rem, 7vw, 20rem);
     font-weight: 500;
 
 }
 .about-about {
     display: flex;
     align-items: center;
-    padding: 6% 11%;
+    padding: 8% 13%;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;

@@ -1,0 +1,117 @@
+.services-about {
+    display: flex;
+    align-items: center;
+    padding: 6% 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: voga;
+    font-weight: 300;
+    background-color: var(--cream);
+    line-height: 1.1    ;
+    /* font-size: clamp(1em, 1.2vw, 3em); */
+    font-family: "Poppins";
+    text-align: justify;
+    text-align-last: center;
+    font-size: clamp(.5em, 1.1vw, 3em);
+}
+.services-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-header h2 {
+    font-family: voga;
+    font-size: clamp(1rem, 4vw, 20rem);
+    font-weight: 500;
+    color: var(--black);
+}
+
+.services-header h1 {
+    font-family: edwardian;
+    font-size: clamp(1rem, 4vw, 20rem);
+    font-weight: 500;
+    padding-top: .5%;
+    color: var(--burgundy);
+}
+.services-container {
+    margin: 0 5% 5% 5%;
+}
+
+.services-expandable-item {
+    border-bottom: 1px solid var(--black);
+    /* padding-bottom: 3%; */
+    cursor: pointer;
+}
+
+.services-box {
+    border-top: 1px solid var(--black);
+    /* margin: 30%; */
+}
+
+.services-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-item-title span:first-child {
+    font-size: 2.8em;
+    font-weight: 500;
+
+}
+
+.services-item-title span {
+    font-size: 2.3em;
+    /* font-weight: 500; */
+}
+
+
+.services-item-arrow {
+    padding-top: .5%;
+    color: var(--burgundy);
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    transition: transform 0.5s ease;
+}
+
+.services-item-arrow.expanded {
+    transform: rotate(90deg);
+    /* Rotate the arrow when expanded */
+}
+.services-expands {
+    font-family: "Poppins";
+    padding: 1% .5%;
+}
+.services-expands h3 {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--burgundy);
+    
+}
+.services-expands ul {
+    margin: 0 2%;
+
+}
+.services-item-description {
+    padding-bottom: 2%;
+}
+
+/* .item-description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: var(--black);
+    font-family: "Poppins";
+    padding: 0 2em;
+    padding-bottom: 2%;
+    font-weight: 300;
+    text-align: justify;
+} */
+
+@media (max-width: 1050px) {
+    .services-expands ul {
+        margin: 0 5%;
+    
+    }
+}

@@ -22,7 +22,10 @@ const DesktopTestimonial = () => {
         <div className={`testimonial-container ${currentIndex % 2 === 0 ? 'even' : 'odd'}`}>
 
             <div className='home-testimonial-header'>
-                <Title title="Clients" />
+                <div className='home-testimonial-title'>
+
+                 <Title title="Clients" />
+                </div>
                 <h1>Love & Testimonials</h1>
             </div>
 
@@ -37,7 +40,7 @@ const DesktopTestimonial = () => {
                     </button>
                 </div>
                 <div className="testimonial-author">
-                    <span>{currentTestimonial.author}</span>
+                    <span className='testimonial-author-company'>{currentTestimonial.author}</span>
                     <span>{currentTestimonial.title}</span>
                 </div>
             </div>
