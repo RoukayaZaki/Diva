@@ -8,6 +8,7 @@ import ServiceExpandableItem from "../components/ServiceExpandableItem";
 
 interface Service {
     title: string;
+    description: string;
     [key: string]: string[] | string | undefined;
 }
 
