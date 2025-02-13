@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Scope of Work",
+        "description": " We will commence the following activities within 1 business day of receiving the payment."
+    },
+    {
+        "title": "Design Brief",
+        "description": "We’ll understand from your perspective what exactly you’re looking forward to achieving with this branding creation. We will have a one on one time to discuss your ideas and to get a scope of what you have envisioned."
+    },
+    {
+        "title": "Market & User Research",
+        "description": "We will conduct research focused on the industry of your business, on the history of the industry and on direct and indirect competitors of your business. We will also research into your typical customers and their preferences and behaviours, and ultimately we’ll look into the logo designs that have been successful and related to the design brief."
+    },
+    {
+        "title": "Logo Design",
+        "description": "Then, we will develop the logo design concepts around the brief and research. We’ll use our creativity and experience to design a logo for you. Together we’ll discuss the sketches and concepts internally and design a presentation for you."
+    },
+    {
+        "title": "Presentation & Revisions",
+        "description": "W​e will create a Mood-board, which will feature a couple of main logo ideas, inspirational images, textures and fonts that will embody your branding identity. We’ll ask you to gather feedback on them to later join us for a call in which we’ll go through your feedback together, apply live changes and perfect your logo of choice."
+    },
+    {
+        "title": "Branding Guidelines",
+        "description": "Once the logo is agreed upon and approved, we will create a set of Branding Guidelines for your Branding Identity, which will include logo permissions and appliances, logo variations, color codes and font allowances. This will be a booklet created into a .PDF file so you have access to it and can hand over to other designers (printing, web, etc)."
+    },
+    {
+        "title": "Website Design and Development",
+        "description": "Once the website design and development process is completed, we will provide comprehensive Website Design and Development Guidelines to ensure seamless management and maintenance of your online presence. This package will include:",
+        "guidelines": [
+            "Website Files: All necessary files and assets for your website, including HTML, CSS, JavaScript, and multimedia files (images, videos, etc.), organized into easily accessible folders.",
+            "README File: A detailed README file providing instructions on deploying and managing your website. This will include information on hosting, domain setup, content management system (if applicable), and any specific configurations or customizations made to the website.",
+            "Design Specifications: Detailed specifications on the design elements used in your website, including color codes, typography choices, layout principles, and interactive features.",
+            "Content Management Guidelines: Guidance on updating and managing website content, including instructions for adding new pages, blog posts, images, and multimedia content.",
+            "Maintenance Recommendations: Recommendations for ongoing website maintenance, including software updates, security measures, and performance optimization strategies to ensure your website remains secure, functional, and user-friendly."
+        ]
+    },
+    {
+        "title": "Final Deliverable",
+        "description": "We will prepare, export and organise digital files into a downloadable folders containing all of the following files in their corresponding formats",
+        "guidelines": [
+            "Original Logo: .PNG, .JPEG, .PDF, .SVG, and .AI",
+            "Black and White Logo: .PNG, .JPEG, .PDF, .SVG, and .AI",
+            "Grayscale Logo: .PNG, .JPEG, .PDF, .SVG, and .AI",
+            "Duo Tone Logo: .PNG, .JPEG, .PDF, .SVG, and .AI",
+            "Monochromatic Logo: .PNG, .JPEG, .PDF, .SVG, and .AI",
+            "Branding Guidelines: .PDF",
+            "Social Media Designs:  .PNG, .JPEG, .PSD, and .AI ",
+            "Printed Materials: .PDF, .AI, and .EPS",
+            "Packaging Materials: .AI and .EPS + mockup files or images to showcase how designs will appear on the packaging",
+            "Website (Coded): The website itself + README file + Code Files such as (.HTML, .CSS, and .JS, organized into folders) + any additional multimedia files such as (.PNG, .JPEG, or .SVG files)",
+            "WordPress Websites: The website itself + Documentation + Theme files in a .ZIP format"
+        ],
+        "summary": "Any additional formats or logo variations you require, you’ll need to let us know before we reach this stage so we can prepare in advance​."
+    },
+    {
+        "title": "The Work",
+        "description": "We agree to produce project materials (the “Work”) at the request of the Client for the fees Agreed، and delivery of the Work by an agreed-upon deadline. We agree that we will be the author of the Work, which will be original work and free of plagiarism. We will cooperate with you in editing and otherwise reviewing the Work prior to completion and launch."
+    },
+    {
+        "title": "Confidentiality",
+        "description": "We acknowledge that we may receive or have access to information which relates to your past, present, or future products, vendor lists, creative works, marketing strategies, pending projects/proposals, and other proprietary information. We agree to protect the confidentiality of your proprietary information and all physical forms thereof, whether disclosed to us before this Agreement or afterward.",
+        "summary": "Unless strict confidentiality is requested by you in advance of the establishment of this contract, we can display materials and final work created for you on our website and portfolio."
+    },
+    {
+        "title": "Payment",
+        "description": "You agree to pay the full cost of the project before the deadlines. If the parameters of the Work change, we will inform you and we can renegotiate the Work’s cost. We are responsible for the payment of all federal, state, and/or local taxes with respect to the services we perform for you."
+    },
+    {
+        "title": "Client Approval",
+        "description": "Upon acceptance of the Work, you accept responsibility for any further processes in which this work is used."
+    },
+    {
+        "title": "Cancellation",
+        "description": "Both parties understand that Client or Diva Solutions may terminate the service at any time if, for any reason, the relationship is deemed unsatisfactory by either party. Upon written or verbal cancellation, Client is responsible for payment for all expenses incurred and any work done towards the completion of the project based on the percentage of the project completed that is determined by Diva Solutions. Should the Client cancel the project following its completion, Client is responsible for full payment as per the agreed upon price. In the event of cancellation, Diva Solutions retains ownership of all copyrights and original work created."
+    },
+    {
+        "title": "Acceptance of Terms",
+        "description": "You promise to pay for the services rendered by Diva Solutions for the Work as agreed upon. By making payment, you agree to have read, understood, and are considered legally bonded to these terms."
+    }
+]

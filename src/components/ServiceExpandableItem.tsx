@@ -3,6 +3,7 @@ import { GoArrowRight } from "react-icons/go";
 
 type Service = {
     title: string;
+    description: string;
     [key: string]: string[] | string | undefined;
 }
 
@@ -24,9 +25,12 @@ function ServiceExpandableItem({ service, isExpanded, onToggle }: ServiceProps) 
                 </span>
             </div>
             {isExpanded && <div className="services-item-description">
+                <p>
+
                 {service.description}
+                </p>
                 {Object.keys(service).map((key) => {
-                    if (key !== 'title') {
+                    if (key !== 'title' && key !== 'description') {
                         return (
 
                             <div className="services-expands" key={key}>

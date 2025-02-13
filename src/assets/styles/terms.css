@@ -1,0 +1,49 @@
+.terms-container {
+    margin: 1% 5%;
+}
+.terms-about {
+    margin-top: 4%;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-align: justify;
+    /* text-align-last: center; */
+    font-size: clamp(.5em, 1.1vw, 3em);
+}
+.terms-details {
+    border-top: 1px solid var(--black);
+    margin: 5% 0;
+    text-align: justify;
+    font-weight: 300;
+}
+.terms-summary {
+    font-weight: 400;
+    font-family: "Poppins";
+
+    /* font-size: clamp(.5em, 1.1vw, 3em); */
+}
+.terms-guidelines {
+    font-family: "Poppins";
+    text-align: justify;
+    padding-left: 2.5%;
+    /* font-size: clamp(.5em, 1.1vw, 3em); */
+}
+.terms-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+}
+.terms-expandable-item {
+    border-bottom: 1px solid var(--black);
+    /* padding: 4px 0; */
+    cursor: pointer;
+}
+
+.terms-item-arrow {
+    color: var(--burgundy);
+    flex-shrink: 0;
+    font-size: 1.5rem;
+    transition: transform 0.5s ease;
+    padding-top: .5%;
+}
+
