@@ -1,11 +1,57 @@
 import Header from "../components/Header";
-
+import Title from "../components/Title";
+import '../assets/styles/terms.css';
+import terms from '../assets/data/terms.json';
+import TermsExpandableItem from "../components/TermsExpandableItem";
+import { useState } from "react";
+import Footer from "../components/Footer";
+type TermsExpandableItemProps = {
+    title: string;
+    description: string;
+    isExpanded: boolean;
+    onToggle: () => void;
+    guidelines?: string[];
+    summary?: string;
+};
 function TermsPage() {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+    const handleToggleExpand = (index: number) => {
+        setExpandedIndex(expandedIndex === index ? null : index);
+    };
+
     return (
         <>
             <Header />
-            <h1>Terms of Service</h1>
-            <p>These are the terms of service.</p>
+            <div className="terms-container">
+
+                <h1 className="job-title">
+                    <Title title="SERVICES AND AGREEMENT POLICIES" />
+                </h1>
+
+                <p className="terms-about">As you embark on this journey with us, it's important to understand the terms that govern our partnership. We believe in transparency and clarity, which is why we've outlined the scope of work, timelines, and payment terms to ensure a seamless collaboration. From the moment you engage with us, you can expect nothing less than exceptional service and unparalleled results. In the following sections, you will see parts of the agreement between you and us, 'The Diva Solutions'. In consideration of the mutual agreement made herein, both parties agree as follows in the next sections.</p>
+                <div className="terms-details">
+                    {terms.map((term, index) => {
+                        // Define optional props based on conditions
+                        const optionalProps: Partial<TermsExpandableItemProps> = {
+                            ...(term.guidelines && { guidelines: term.guidelines }),
+                            ...(term.summary && { summary: term.summary }),
+                        };
+
+                        return (
+                            <TermsExpandableItem
+                                title={term.title}
+                                description={term.description}
+                                isExpanded={expandedIndex === index}
+                                onToggle={() => handleToggleExpand(index)}
+                                {...optionalProps} // Spread the optional props
+                            />
+                        );
+                    })}
+                </div>
+
+            </div>
+            <Footer />
         </>
     );
 }
