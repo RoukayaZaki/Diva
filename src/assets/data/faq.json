@@ -1,0 +1,31 @@
+[
+    {
+        "title": "I am interested in working with you, how do we get started?",
+        "description": "To begin our collaboration, simply submit a contact form on our website. Once received, we'll schedule a complimentary consultation call to discuss your project in detail. Following the call, we require a 50% deposit to initiate the project. After receiving your deposit, you'll be asked to submit a project brief outlining your vision and requirements. From there, our team will commence the design process, keeping you informed every step of the way."
+    },
+    {
+        "title": "I live in a faraway place, can we still work together?",
+        "description": "Absolutely! We operate online and serve clients worldwide, regardless of location. Our virtual collaboration tools ensure seamless communication and project management, allowing us to work effectively with clients from any corner of the globe."
+    },
+    {
+        "title": "What are your payment terms?",
+        "description": "Our payment terms are straightforward. We require a 50% deposit to begin your project, with the remaining 50% due upon completion before we deliver the final files. This ensures a fair and balanced payment structure throughout the project."
+    },
+    {
+        "title": "Do I need to sign any contracts before we start working together?",
+        "description": "Prior to initiating the project, we share our terms and conditions with you online. Once you've reviewed and agreed to these terms, along with submitting the initial deposit, we proceed with the project. This ensures transparency and sets clear expectations for both parties."
+    },
+    {
+        "title": "I Don't Have a Good Design Background. Can You Help Me Choose What My Business Needs?",
+        "description": "Absolutely! At Diva, we understand that not everyone has a background in design, and that's perfectly okay. Our team of experienced designers and branding experts is here to guide you every step of the way. During our initial consultation, we'll take the time to understand your business goals, target audience, and brand vision. Based on this information, we'll provide tailored recommendations to help you choose the design solutions that best suit your needs."
+    },
+    {
+        "title": "What is the time frame for a full new brand identity?",
+        "description": "The time frame for developing a complete brand identity varies depending on the scope and complexity of the project. Generally, it can take from 3 to 4 weeks to create a comprehensive brand identity, including research, concept development, design iterations, and finalization. We work diligently to deliver high-quality results within a reasonable timeframe, ensuring that your brand identity reflects your vision and resonates with your audience."
+    },
+    {
+        "title": "What constitutes a round of revisions?",
+        "description": "Within the scope of logo design, we offer 1-3 initial concepts with 3 rounds of revisions. A round of revisions refers to the process of interpreting your feedback and implementing it to present you with a revised concept. To make the most of your revision round, we encourage you to compile all feedback into one concise communication, ensuring clarity and efficiency in the revision process."
+    }
+
+]
