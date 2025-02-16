@@ -5,6 +5,7 @@
     text-align: center;
     padding: 10px 0;
     border: none;
+    color: var(--cream);
 }
 
 .cta-button a {
@@ -19,5 +20,5 @@
 }
 
 .cta-button a:hover {
-    color: var(--gray); /* Gold hover effect */
+    color:  rgb(from var(--cream) r g b / 45%);/* Gold hover effect */
 }

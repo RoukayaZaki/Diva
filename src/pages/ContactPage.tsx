@@ -5,8 +5,6 @@ function ContactPage() {
   return (
     <>
       <Header />
-
-
       <form>
         <label>
           Name:
