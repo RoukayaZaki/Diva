@@ -14,7 +14,7 @@ const TermsExpandableItem = ({ title, description, isExpanded, onToggle, guideli
     return (
         <div className="terms-expandable-item">
             <div className="terms-item-header" onClick={onToggle}>
-                <div className="item-title">
+                <div className="terms-item-title">
                     <h1>{title}</h1>
                 </div>
                 <span className={`terms-item-arrow ${isExpanded ? "expanded" : ""}`}>
@@ -23,7 +23,7 @@ const TermsExpandableItem = ({ title, description, isExpanded, onToggle, guideli
             </div>
             {isExpanded && (
                 <div className="item-description">
-                    <p>{description}</p>
+                    <p className="terms-item-description">{description}</p>
                     {guidelines.length > 0 && (
                         <div className="terms-guidelines">
                             <ul>

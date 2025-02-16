@@ -25,7 +25,7 @@ function TermsPage() {
             <Header />
             <div className="terms-container">
 
-                <h1 className="job-title">
+                <h1 className="terms-title">
                     <Title title="SERVICES AND AGREEMENT POLICIES" />
                 </h1>
 
