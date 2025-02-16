@@ -42,8 +42,40 @@
 .terms-item-arrow {
     color: var(--burgundy);
     flex-shrink: 0;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.6vw, 20rem);
     transition: transform 0.5s ease;
     padding-top: .5%;
 }
 
+.terms-item-arrow.expanded {
+    transform: rotate(90deg);
+    /* Rotate the arrow when expanded */
+}
+.terms-item-title h1 {
+    font-size: clamp(1.2rem, 2.5vw, 20rem);
+    font-weight: 500;
+}
+
+.terms-title {
+    font-size: clamp(1.2rem, 3vw, 20rem);
+}
+
+@media (max-width: 1050px) {
+    .terms-title {
+        text-align: center;
+        line-height: 1.2;
+        font-size: clamp(1.2rem, 7vw, 20rem);
+        padding-top: 2%;
+    }
+    .terms-about {
+        text-align-last: center;
+        padding-bottom: 5%;
+        font-size: clamp(.5em, 3vw, 20rem);
+    }
+    .terms-item-arrow {
+        font-size: clamp(1rem, 3.5vw, 20rem);
+    }
+    .terms-item-description {
+        font-size: clamp(.5em, 3vw, 20rem);
+    }
+}
