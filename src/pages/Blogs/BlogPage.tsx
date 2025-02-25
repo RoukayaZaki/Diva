@@ -3,7 +3,8 @@ import Header from "../../components/Header";
 import blogs from '../../assets/data/blogs.json';
 import BlogCard from "../../components/BlogCard";
 import Footer from "../../components/Footer";
-import headerphoto from '../../assets/images/blogs/header-blogs -2.png';
+import headerphoto from '../../assets/images/blogs/blog-1.jpg';
+import { Link } from "react-router-dom";
 
 function BlogPage() {
     console.log(blogs);
@@ -38,9 +39,9 @@ function BlogPage() {
                 </div>
                 {blogs.map((blog, index) => (
                     <div key={index}>
-
-                        <BlogCard title={blog.title} id={blog.id} description={blog.description} image={blog.image} />
-
+                        <Link to={`/blogs/${blog.id}`} style={{ textDecoration: 'none' }} >
+                            <BlogCard title={blog.title} id={blog.id} description={blog.description} image={blog.image} />
+                        </Link>
                     </div>
                 ))}
             </div>

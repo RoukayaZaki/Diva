@@ -1,0 +1,74 @@
+.post-page {
+    margin: 0 5%;
+    font-family: "Poppins";
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    font-size: clamp(.2rem, 1vw, 1.5rem);
+}
+
+.post-title {
+    text-align: center;
+    margin: 6% 15%;
+    font-family: voga;
+    font-size: clamp(2rem, 4vw, 10rem);
+    font-weight: 500;
+    line-height: 1;
+}
+
+.post-content {
+    text-align: justify;
+    font-size: clamp(.2rem, 1.1vw, 1.5rem);
+
+}
+
+.post-quote {
+    border-left: 1px solid var(--black);
+    padding-left: 1rem;
+    
+}
+.post-quote h3 {
+    font-size: clamp(.2rem, .8vw, 1rem);
+    font-weight: 400;
+    color: var(--burgundy);
+    /* font-style: italic; */
+    margin: 1.3rem 0;
+}
+.post-list b{
+    font-weight: 500;
+}
+
+.post-list li {
+    /* margin-left: 1rem; */
+    margin: 1rem ;
+    /* display: flex; */
+}
+.post-list h1 {
+    font-size: clamp(.2rem, 1.1vw, 1.5rem);
+    font-weight: 500;
+}
+
+.post-footer {
+    border-top: 1px solid var(--black);
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: clamp(.2rem, .8vw, 1.5rem);
+}
+.post-footer h2 {
+    font-family: voga;
+    font-size: clamp(1.5rem, 3vw, 10rem);
+    font-weight: 500;
+}
+.post-next, .post-back {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* justify-content: center; */
+}

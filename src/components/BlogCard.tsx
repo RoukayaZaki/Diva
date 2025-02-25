@@ -1,7 +1,7 @@
 import '../assets/styles/blogs.css'
 
 type BlogCardProps = {
-    id: number,
+    id: string,
     title: string,
     image: string,
     description: string[],
