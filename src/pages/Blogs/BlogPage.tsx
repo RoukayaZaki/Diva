@@ -3,6 +3,8 @@ import Header from "../../components/Header";
 import blogs from '../../assets/data/blogs.json';
 import BlogCard from "../../components/BlogCard";
 import Footer from "../../components/Footer";
+import headerphoto from '../../assets/images/blogs/header-blogs -2.png';
+
 function BlogPage() {
     console.log(blogs);
 
@@ -12,12 +14,15 @@ function BlogPage() {
             <div className="blogs">
                 <div className="blogs-header">
                     <div className="blogs-header-headline">
-                        <p>
-                            Story of the
-                        </p>
-                        <h1>
-                            Week
-                        </h1>
+                        <div className="blogs-header-headline-title">
+                            <p>
+                                Story of the
+                            </p>
+                            <h1>
+                                Week
+                            </h1>
+                        </div>
+                        <img src={headerphoto} className="blogs-header-headline-img" alt="" />
                     </div>
                     <div className="blogs-header-blog">
                         <h1>
@@ -26,7 +31,7 @@ function BlogPage() {
                             Diva's Experts
                         </h1>
                         <p>
-                        In today's fast-paced digital landscape, establishing a brand that captivates and resonates with audiences requires more than just a logo and a catchy tagline. It demands sophistication, finesse, and a keen understanding of the nuances that define luxury and excellence...
+                            In today's fast-paced digital landscape, establishing a brand that captivates and resonates with audiences requires more than just a logo and a catchy tagline. It demands sophistication, finesse, and a keen understanding of the nuances that define luxury and excellence...
                         </p>
                         <button>Read now</button>
                     </div>

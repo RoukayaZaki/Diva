@@ -10,7 +10,42 @@
 
 .blogs-header {
   min-height: 70vh;
+  display: flex;
+  margin: 0 5%;
+  font-family: "Poppins";
   /* background-image: url('../images/blogs/header-blogs.png'); */
+  /* background-size: cover; */
+}
+.blogs-header-headline {
+  flex: 2;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.blogs-header-headline-title {
+  /* flex: 1; */
+  position: absolute;
+  z-index: 100;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center; */
+  /* align-items: center; */
+}
+.blogs-header-headline-title h1 {
+  font-size: 10rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.blogs-header-headline-img {
+  /* flex: 1; */
+  position: relative;
+  
+}
+.blogs-header-blog {
+  flex: 1;
 }
 
 .blogs span {
