@@ -4,6 +4,8 @@ import Footer from "../../components/Footer";
 import blogs from '../../assets/data/blogs.json';
 import '../../assets/styles/post.css';
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import { useMediaQuery } from "react-responsive";
+import { MdKeyboardDoubleArrowRight, MdKeyboardDoubleArrowLeft } from "react-icons/md";
 
 
 function PostPage() {
@@ -16,6 +18,8 @@ function PostPage() {
     const handleClick = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
+    const isMobile = useMediaQuery({ maxWidth: 1050 });
+    
 
     return (
         <div>
@@ -28,7 +32,10 @@ function PostPage() {
                 <div className="post-header">
                     <p>POSTED IN: {currentblog?.category}</p>
                     <p>{currentblog?.date}</p>
-                    <p>{currentblog?.author}</p>
+                    {!isMobile &&
+
+                        <p>{currentblog?.author}</p>
+                    }
                 </div>
                 <h1 className="post-title">{currentblog?.title}</h1>
                 <div className="post-content">
@@ -67,20 +74,43 @@ function PostPage() {
 
                     <div className="post-footer">
                         <Link to={`/blogs/${prevId}`} className="post-back" onClick={handleClick}>
-                            <GoArrowLeft />
+                            {isMobile && <MdKeyboardDoubleArrowLeft />}
+
+                            {!isMobile &&
+                                <>
+                                    <GoArrowLeft />
+                                    <p>
+                                        &nbsp;	&nbsp;	&nbsp;
+                                    </p>
+                                </>
+                            }
+
                             <p>
-                                &nbsp;	&nbsp;	&nbsp;PREV
+                                PREV
                             </p>
                         </Link>
-                        <h2>
-                            BACK TO INDEX
-                        </h2>
+                        <Link to="/blogs" className="post-index" onClick={handleClick}>
+                            <h2>
+                                BACK TO INDEX
+                            </h2>
+                        </Link>
                         <Link to={`/blogs/${nextId}`} className="post-next" onClick={handleClick}>
                             <p>
-                                NEXT	&nbsp;	&nbsp;	&nbsp;
+                                NEXT	{
+                                }
                             </p>
+                            {!isMobile &&
+                                <>
+                                    <p>
+                                        &nbsp;	&nbsp;	&nbsp;
+                                    </p>
+                                    <GoArrowRight />
+                                </>
+                            }
+                            {isMobile &&
+                                <MdKeyboardDoubleArrowRight />
+                            }
 
-                            <GoArrowRight />
                         </Link>
                     </div>
 

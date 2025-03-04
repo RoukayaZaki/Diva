@@ -3,6 +3,7 @@ import Title from "../components/Title";
 import '../assets/styles/contact.css'
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function ContactPage() {
   const [state, handleSubmit] = useForm("xdkarngn");
@@ -15,8 +16,11 @@ function ContactPage() {
     <>
       <Header />
       <div className="contactpage">
-        <h1 className="contact-title">
+        <h1 className="terms-title">
           <Title title="LET'S WORK TOGETHER!" />
+          <div className="breadcrumbs">
+            <Link to="/" className="breadcrumb-link">Home</Link> / Contact
+          </div>
         </h1>
         <form onSubmit={handleSubmit} className="contact-form">
           <input type="hidden" name="_subject" value="Lead: New Submission" />

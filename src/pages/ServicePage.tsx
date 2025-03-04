@@ -35,16 +35,16 @@ function ServicePage() {
 
                 </div>
             </div>
-            <div className="services-about">
+            <p className="services-about">
                 We pride ourselves on delivering perfection, sophistication, and elegance in every project we undertake. Our expertise spans across branding, design, and website development, ensuring that your brand stands out with a touch of class and innovation.
-            </div>
+            </p>
             <div className="services-container">
-                <div className="services-header">
+                {/* <div className="services-header">
                     <h1> Our&nbsp;</h1>
                     <h2>
                         Expertise
                     </h2>
-                </div>
+                </div> */}
                 <div className="services-box">
 
                     {typedServices.map((item: Service, index: number) => (

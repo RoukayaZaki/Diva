@@ -2,7 +2,7 @@
     {
         "id": "1",
         "category": "Branding",
-        "image": "public/images/blogs/blog-1.jpg",
+        "image": "images/blogs/blog-1.jpg",
         "title": "Mastering Sophisticated Branding: Insider Tips from Diva's Experts",
         "date": "March 9, 2024",
         "author": "Diva Solutions",
@@ -52,7 +52,7 @@
     {
         "id": "2",
         "category": "Branding",
-        "image": "public/images/blogs/blog-2.png",
+        "image": "images/blogs/blog-2.png",
         "title": "Mastering the Art of Perfection: Diva's Approach to Design Excellence",
         "date": "January 24, 2024",
         "author": "Diva Solutions",
@@ -90,7 +90,7 @@
     {
         "id": "3",
         "category": "Design",
-        "image": "public/images/blogs/blog-3.jpg",
+        "image": "images/blogs/blog-3.jpg",
         "title": "Elevate your Journey in the Creative Industry through Continuous Learning",
         "date": "November 23, 2023",
         "author": "Diva Solutions",
@@ -119,7 +119,7 @@
     {
         "id": "4",
         "category": "Design",
-        "image": "public/images/blogs/blog-4.jpg",
+        "image": "images/blogs/blog-4.JPG",
         "title": "Achieving Timeless Sophistication: Tips for Elevating Luxury Design",
         "date": "October 21, 2023",
         "author": "Diva Solutions",
@@ -175,7 +175,7 @@
     {
         "id": "5",
         "category": "Positioning",
-        "image": "public/images/blogs/blog-5.jpg",
+        "image": "images/blogs/blog-5.jpg",
         "title": "Elevating Your Brand: Attracting High-Profile Audiences with Luxury",
         "date": "July 19, 2023",
         "author": "Diva Solutions",
