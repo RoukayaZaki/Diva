@@ -7,7 +7,7 @@
     font-weight: 300;
     text-align: justify;
     /* text-align-last: center; */
-    font-size: clamp(.5em, 1.1vw, 3em);
+    font-size: clamp(.5em, 1rem, 3em);
 }
 .terms-details {
     border-top: 1px solid var(--black);
@@ -42,7 +42,7 @@
 .terms-item-arrow {
     color: var(--burgundy);
     flex-shrink: 0;
-    font-size: clamp(1rem, 1.6vw, 20rem);
+    font-size: clamp(1rem, 1.4vw, 20rem);
     transition: transform 0.5s ease;
     padding-top: .5%;
 }
@@ -52,14 +52,31 @@
     /* Rotate the arrow when expanded */
 }
 .terms-item-title h1 {
-    font-size: clamp(1.2rem, 2.5vw, 20rem);
+    font-size: 1.8em;
     font-weight: 500;
+    /* text-align: left; */
+    line-height: 1.1;
+    margin: 2% 0;
+    padding-right: .5em;
 }
 
 .terms-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-size: clamp(1.2rem, 3vw, 20rem);
 }
-
+.breadcrumbs {
+    font-size: 11px;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+.terms-title span:first-child {
+    font-size: clamp(1.5rem, 5.5vw, 20rem);
+    /* font-weight: 500; */
+}
 @media (max-width: 1050px) {
     .terms-title {
         text-align: center;
@@ -78,4 +95,13 @@
     .terms-item-description {
         font-size: clamp(.5em, 3vw, 20rem);
     }
+    .terms-title span:first-child {
+        font-size: clamp(2rem, 11vw, 15rem);
+        padding-right: .1em;
+        /* font-weight: 500; */
+    }
+    .terms-about {
+        font-size: clamp(.5em, .8rem, 3em);
+    }
+    
 }

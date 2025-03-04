@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 
 import image1 from '../../assets/images/footer/footer-1.jpg'
 import image2 from '../../assets/images/footer/footer-2.jpg'
-import { FaFacebook, FaBehance, FaInstagram, FaPinterest, FaDribbble } from 'react-icons/fa'
-import { HiMail } from 'react-icons/hi'
+
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
+import { FaBehance, FaPinterestP } from 'react-icons/fa6'
+import { RiInstagramFill } from 'react-icons/ri'
+import { TbBrandDribbbleFilled, TbMailFilled } from 'react-icons/tb'
 
 function MobileFooter() {
     return (
@@ -30,22 +33,25 @@ function MobileFooter() {
 
             <div className="footer-socials">
                 <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
-                    <FaDribbble />
+                    <TbBrandDribbbleFilled color="#F1EFE7" />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                    <FaFacebook />
+                    <FaFacebookF color="#F1EFE7" />
                 </a>
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram />
+                    <RiInstagramFill color="#F1EFE7" />
                 </a>
                 <a href="https://behance.net" target="_blank" rel="noopener noreferrer">
-                    <FaBehance />
+                    <FaBehance color="#F1EFE7" />
                 </a>
                 <a href="mailto:email@example.com">
-                    <HiMail />
+                    <TbMailFilled color="#F1EFE7" />
                 </a>
                 <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-                    <FaPinterest />
+                    <FaPinterestP color="#F1EFE7" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn color="#F1EFE7" />
                 </a>
             </div>
             <div className="footer-copyright-line"></div>

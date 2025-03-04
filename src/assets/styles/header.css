@@ -23,8 +23,8 @@
 
 .nav {
     /* margin-top: 10px; */
-
-    max-width: 1000px;
+    padding: 0 15%;
+    /* max-width: 1000px; */
     height: 100%;
 
     display: block;

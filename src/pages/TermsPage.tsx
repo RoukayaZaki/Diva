@@ -5,6 +5,8 @@ import terms from '../assets/data/terms.json';
 import TermsExpandableItem from "../components/TermsExpandableItem";
 import { useState } from "react";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+
 type TermsExpandableItemProps = {
     title: string;
     description: string;
@@ -27,6 +29,9 @@ function TermsPage() {
 
                 <h1 className="terms-title">
                     <Title title="SERVICES AND AGREEMENT POLICIES" />
+                    <div className="breadcrumbs">
+                        <Link to="/" className="breadcrumb-link">Home</Link> / terms
+                    </div>
                 </h1>
 
                 <p className="terms-about">As you embark on this journey with us, it's important to understand the terms that govern our partnership. We believe in transparency and clarity, which is why we've outlined the scope of work, timelines, and payment terms to ensure a seamless collaboration. From the moment you engage with us, you can expect nothing less than exceptional service and unparalleled results. In the following sections, you will see parts of the agreement between you and us, 'The Diva Solutions'. In consideration of the mutual agreement made herein, both parties agree as follows in the next sections.</p>

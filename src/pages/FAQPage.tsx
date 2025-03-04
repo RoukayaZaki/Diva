@@ -5,6 +5,7 @@ import faq from '../assets/data/faq.json';
 import TermsExpandableItem from "../components/TermsExpandableItem";
 import { useState } from "react";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function FAQPage() {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
@@ -19,10 +20,13 @@ function FAQPage() {
             <div className="terms-container">
 
                 <h1 className="terms-title">
-                    <Title title="Frequently Asked Questions" />
+                    <Title title="FREQUENTLY ASKED QUESTIONS" />
+                    <div className="breadcrumbs">
+                        <Link to="/" className="breadcrumb-link">Home</Link> / faq
+                    </div>
                 </h1>
 
-                {/* <p className="terms-about">At Diva, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website or engage with our services. By using our website or services, you consent to the terms of this Privacy Policy.</p> */}
+                <p className="terms-about">Welcome to our exclusive FAQ section. We understand that excellence lies in the details, and we are here to ensure your experience is nothing short of exceptional. Below, you will find answers to the most common inquiries about our prestigious offerings. Should you require further assistance, our dedicated concierge team is at your service.</p>
                 <div className="terms-details">
                     {faq.map((term, index) => {
 

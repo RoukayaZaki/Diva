@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0% 5% 10% 5%;
+    margin: 2% 5% 10% 5%;
     min-height: 75vh;
     border: 1px solid var(--cream);
     /* padding: 20px; */
@@ -296,6 +296,7 @@
     flex-direction: column;
     border-right: 1px solid var(--cream);
 
+    /* font-weight: 200; */
     /* border-right: 1px solid radial-gradient(var(--cream), var(--black)); */
     /* border-image: linear-gradient(to top, #fff 50%, #000 50%) 100% 1; */
 }
@@ -319,7 +320,7 @@
     /* Or your desired color */
     margin-top: 5px;
     font-family: "Poppins";
-    font-weight: 300;
+    font-weight: 200;
 
 }
 
