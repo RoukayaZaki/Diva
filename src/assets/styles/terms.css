@@ -77,6 +77,33 @@
     font-size: clamp(1.5rem, 5.5vw, 20rem);
     /* font-weight: 500; */
 }
+
+
+.faq-header {
+    color: var(--cream);
+    flex: .9;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+.faq-header h2 {
+    font-family: edwardian;
+    font-size: clamp(2rem, 8vw, 20rem);
+    font-weight: 500;
+    padding-top: 1%;
+    /* align-items: ; */
+}
+
+.faq-header h1 {
+    font-family: voga;
+    font-size: clamp(2rem, 7vw, 20rem);
+    font-weight: 500;
+
+}
+
 @media (max-width: 1050px) {
     .terms-title {
         text-align: center;
@@ -103,5 +130,15 @@
     .terms-about {
         font-size: clamp(.5em, .8rem, 3em);
     }
+    .faq-header h2 {
+        font-size: clamp(3rem, 10vw, 10rem);
+
+    }
+    
+    .faq-header h1 {
+        font-size: clamp(2rem, 9vw, 10rem);
+    
+    }
+   
     
 }

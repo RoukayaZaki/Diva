@@ -16,7 +16,7 @@ function FAQPage() {
         <>
             <div className="hero-section-career">
                 <Header />
-                <div className="about-header">
+                <div className="faq-header">
 
                     <h1> Frequently Asked&nbsp;</h1>
                     <h2>
