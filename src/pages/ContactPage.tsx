@@ -1,9 +1,7 @@
 import Header from "../components/Header";
-import Title from "../components/Title";
 import '../assets/styles/contact.css'
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 function ContactPage() {
   const [state, handleSubmit] = useForm("xdkarngn");

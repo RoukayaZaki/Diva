@@ -1,11 +1,9 @@
 import Header from "../components/Header";
-import Title from "../components/Title";
 import '../assets/styles/terms.css';
 import policyterms from '../assets/data/policy.json';
 import TermsExpandableItem from "../components/TermsExpandableItem";
 import { useState } from "react";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 function PolicyPage() {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);

@@ -1,11 +1,9 @@
 import Header from "../components/Header";
-import Title from "../components/Title";
 import '../assets/styles/terms.css';
 import terms from '../assets/data/terms.json';
 import TermsExpandableItem from "../components/TermsExpandableItem";
 import { useState } from "react";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 type TermsExpandableItemProps = {
     title: string;
