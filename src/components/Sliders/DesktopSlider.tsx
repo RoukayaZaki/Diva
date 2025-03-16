@@ -4,7 +4,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import projects from '../../assets/data/highlighted_projects.json';
 import ProjectCard from '../ProjectCard';
-import { FaArrowLeft } from 'react-icons/fa';
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io'; // Import icons from react-icons
 interface ArrowProps {
   onClick?: () => void;
