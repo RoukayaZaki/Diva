@@ -93,7 +93,7 @@
         font-size: clamp(1rem, 3.5vw, 20rem);
     }
     .terms-item-description {
-        font-size: clamp(.5em, 3vw, 20rem);
+        font-size: clamp(.5em, .8rem, 3em);
     }
     .terms-title span:first-child {
         font-size: clamp(2rem, 11vw, 15rem);

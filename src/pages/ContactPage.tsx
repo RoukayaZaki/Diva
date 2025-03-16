@@ -1,9 +1,7 @@
 import Header from "../components/Header";
-import Title from "../components/Title";
 import '../assets/styles/contact.css'
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 function ContactPage() {
   const [state, handleSubmit] = useForm("xdkarngn");
@@ -14,17 +12,27 @@ function ContactPage() {
 
   return (
     <>
-      <Header />
+      <div className="hero-section-career">
+        <Header />
+        <div className="about-header">
+
+          <h2> Contact&nbsp; </h2>
+          <h1>
+            Us
+          </h1>
+
+        </div>
+      </div>
       <div className="contactpage">
-        <h1 className="terms-title">
+        {/* <h1 className="terms-title">
           <Title title="LET'S WORK TOGETHER!" />
           <div className="breadcrumbs">
             <Link to="/" className="breadcrumb-link">Home</Link> / Contact
           </div>
-        </h1>
+        </h1> */}
         <form onSubmit={handleSubmit} className="contact-form">
           <input type="hidden" name="_subject" value="Lead: New Submission" />
-          
+
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="name">Full Name *</label>

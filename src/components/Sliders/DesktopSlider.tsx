@@ -1,34 +1,80 @@
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import projects from '../../assets/data/highlighted_projects.json';
 import ProjectCard from '../ProjectCard';
-import React from 'react';
-
+import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io'; // Import icons from react-icons
+interface ArrowProps {
+  onClick?: () => void;
+}
 function DesktopSlider() {
-  const [activeSlide, setActiveSlide] = React.useState(1);
+  const totalSlides = projects.length;
+  const [activeSlide, setActiveSlide] = React.useState(0);
 
+  // Custom Previous Arrow Component
+  const CustomPrevArrow = (props: ArrowProps) => {
+    const { onClick } = props;
+    return (
+      <button
+        className="slick-arrow slick-prev"
+        onClick={onClick}
+        style={{
+          position: 'absolute',
+          left: '-25px', // Adjust positioning as needed
+          top: '50%',
+          transform: 'translateY(-50%)',
+          zIndex: 1,
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+        }}
+      >
+        <IoIosArrowBack size={24} /> {/* Use react-icons */}
+      </button>
+    );
+  };
+
+  // Custom Next Arrow Component
+  const CustomNextArrow = (props: ArrowProps) => {
+    const { onClick } = props;
+    return (
+      <button
+        className="slick-arrow slick-next"
+        onClick={onClick}
+        style={{
+          position: 'absolute',
+          right: '-25px', // Adjust positioning as needed
+          top: '50%',
+          transform: 'translateY(-50%)',
+          zIndex: 1,
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+        }}
+      >
+        <IoIosArrowForward size={24} /> {/* Use react-icons */}
+      </button>
+    );
+  };
+
+  // Slider Settings
   const settings = {
     infinite: true,
     speed: 500,
     arrows: true,
     focusOnSelect: true,
-    slidesToShow: 3, // Default number of slides to show
-    slidesToScroll: 1, // Default number of slides to scroll
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: <CustomPrevArrow />, // Use custom previous arrow
+    nextArrow: <CustomNextArrow />, // Use custom next arrow
     beforeChange: (next: number) => {
-      const totalSlides = projects.length;
-      let activeIndex = (next + 1) % (totalSlides + 1);
+      let activeIndex = next + 1;
+      if (activeIndex === totalSlides) {
+        activeIndex = 0;
+      }
       setActiveSlide(activeIndex);
     },
-    responsive: [
-      {
-        breakpoint: 1050, // Breakpoint for mobile devices
-        settings: {
-          slidesToShow: 1, // Show only 1 slide on mobile
-          slidesToScroll: 1, // Scroll 1 slide at a time on mobile
-        }
-      }
-    ]
   };
 
   return (
@@ -37,7 +83,9 @@ function DesktopSlider() {
         {projects.map((project, index) => (
           <div
             key={project.id}
-            className={`slick-slide-wrapper ${index === activeSlide ? 'active' : ''}`}
+            className={`slick-slide-wrapper ${
+              ((index - 1) >= 0 ? index - 1 : totalSlides - 1) === activeSlide ? 'active' : ''
+            }`}
           >
             <ProjectCard id={project.id} title={project.title} image={project.image} />
           </div>
