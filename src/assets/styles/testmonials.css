@@ -15,20 +15,20 @@
   padding-right: 1%;
 }
 .home-testimonial-header span:first-child {
-  font-size: clamp(1.2rem, 17vw, 8rem);
+  font-size: clamp(.5rem, 5rem, 10rem);
 }
 .home-testimonial-header span {
   
   text-transform: uppercase;
   line-height: .8;
-  font-size: clamp(1.2rem, 13vw, 6rem);
+  font-size: clamp(.5rem, 4rem, 6rem);
   font-weight: 500;
   letter-spacing: -2px;
 }
 
 .home-testimonial-header h1 {
   font-family: voga;
-  font-size: clamp(1.2rem, 13vw, 6rem);
+  font-size: clamp(.5rem, 4rem, 6rem);
   font-weight: 500;
   text-transform: uppercase;
   line-height: .8;
@@ -162,5 +162,16 @@
     justify-content: center;
     /* padding-right: 20%; */
   }
+  .home-testimonial-header span:first-child {
+    font-size: clamp(.2rem, 13vw, 5.5rem);
+  }
+  .home-testimonial-header span {
+
+    font-size: clamp(.2rem, 10vw, 4.5rem);
+
+  }
   
+  .home-testimonial-header h1 {
+    font-size: clamp(.2rem, 10vw, 4.5rem);
+  }
 }
