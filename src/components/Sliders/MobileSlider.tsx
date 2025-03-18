@@ -19,12 +19,12 @@ function MobileSlider() {
 
   return (
     <div className="mobile-slider">
-      <button title="mobile-slider-back" onClick={handlePrev} className="back-arrow"> <IoIosArrowBack /> </button>
+      <button title="mobile-slider-back" onClick={handlePrev} className="back-arrow"> <IoIosArrowBack size={24} /> </button>
       <div className="mobile-slider-middle">
 
         <ProjectCard id={projects[currentIndex].id} title={projects[currentIndex].title} image={projects[currentIndex].image} />
       </div>
-      <button title="mobile-slider-forward" onClick={handleNext} className="forward-arrow"> <IoIosArrowForward /> </button>
+      <button title="mobile-slider-forward" onClick={handleNext} className="forward-arrow"> <IoIosArrowForward size={24}/> </button>
 
     </div>
   );

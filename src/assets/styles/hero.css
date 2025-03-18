@@ -8,28 +8,6 @@
 
 }
 
-/* .grain {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 300;
-
-    &:before {
-        content: "";
-        top: -10rem;
-        left: -10rem;
-        width: calc(100% + 10rem);
-        height: calc(100% + 100rem);
-        z-index: 9999;
-        position: fixed;
-        background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
-        opacity: 0.15;
-        
-    }
-
-} */
 
 .box {
     display: flex;
@@ -89,7 +67,6 @@
 .hero-section {
     background-image: url('../images/homepage/homepage-hero-cropped.jpg');
     background-size: cover;
-    /* Ensure both images cover the section */
     filter: saturate(40%);
     background-position: center;
     background-repeat: no-repeat;
@@ -113,22 +90,6 @@
 .hero-section a:hover {
     color: var(--burgundy) !important;
 }
-
-/* .header a {
-    color: var(--black) !important;
-} */
-
-/* .title span {
-    color: var(--cream) !important;
-} */
-
-/* .titleFirst {
-    color: var(--cream) !important;
-}
-
-.titleRest {
-    color: var(--cream) !important;
-} */
 
 
 .home-about {
@@ -375,7 +336,8 @@
     }
     .home-about-right p {
         padding-top: 5%;
-        text-align: center;
+        text-align: justify;
+        text-align-last: center;
         font-size: 1.1em;
     }
     .home-about-right {
