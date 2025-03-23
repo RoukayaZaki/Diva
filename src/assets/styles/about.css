@@ -24,6 +24,25 @@
     font-weight: 500;
 
 }
+.about-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    padding: 5%;
+}
+.about-story p {
+    font-size: 14px;
+    font-family: "Poppins";
+}
+.about-story-content {
+    display: flex;
+    padding: 0 5% 10% 5%;
+    gap: 30px;
+    font-family: "Poppins";
+    font-size: 14px;
+    text-align: justify;
+}
 .about-about {
     display: flex;
     align-items: center;
