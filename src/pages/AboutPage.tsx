@@ -1,9 +1,8 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Testimonial from "../components/Testmonials";
 import Title from "../components/Title";
 import '../assets/styles/about.css';
-import AboutGrid from "../components/AboutGrid";
+import AboutMission from "../components/AboutMission";
 
 const philosophies = [
     {
@@ -38,13 +37,28 @@ function AboutPage() {
 
                 </div>
             </div>
-            <AboutGrid />
+            <div className="about-story">
+                <div className="about-philosophies-title">
+                    <Title title="Our Story Isn't Like Everyone Else's..." />
+
+                </div>
+                <p>
+                    A Journey of Passion, Innovation, and Unwavering Excellence
+                </p>
+            </div>
+
+            <div className="about-story-content"> 
+                <p className="about-story-content-left">
+                    In 2019, our journey began with a fervent passion for pushing the boundaries of possibility while embracing the sophistication of design and creativity. Diva emerged not only as a creative agency but also as a symbol of luxury, innovation, and excellence in the digital realm. Our goal was to create exceptional experiences that surpass expectations and set new benchmarks.
+                </p>
+                <p className="about-story-content-right">
+                At Diva, we envision a future where elegance and perfection reign supreme. We aim to set the gold standard for innovation, infusing every creation with sophistication, confidence, and unapologetic perfection. We craft digital experiences that exude elegance and establish new benchmarks for excellence, empowering our clients to stand out in a competitive landscape.
+                </p>
+            </div>
             <div className="about-about">
-                {/* We are a &nbsp;<span>premier</span>&nbsp;  design and tech agency specializing in branding, website development, and design solutions. At Diva, we believe in &nbsp;<span>pushing the boundaries</span>&nbsp;
-                of design to create &nbsp;<span>exquisite experiences</span>&nbsp;  that elevate brands to new heights. */}
                 We are a premier design and tech agency specializing in branding, website development, and design solutions. At Diva, we believe in pushing the boundaries
                 of design to create exquisite experiences that elevate brands to new heights.
-                
+
             </div>
             <section className="about-philosophy-section">
                 <div className="about-philosophies-title">
@@ -63,7 +77,9 @@ function AboutPage() {
                     ))}
                 </div>
             </section>
-            <Testimonial />
+            
+            <AboutMission />
+
             <Footer />
         </>
     );

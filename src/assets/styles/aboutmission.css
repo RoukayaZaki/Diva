@@ -1,0 +1,60 @@
+.about-mission-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: #f5f2eb; */
+    padding-bottom: 7%;
+}
+
+.about-mission-content {
+    /* max-width: 1200px; */
+    /* text-align: center; */
+    position: relative;
+}
+
+/* .about-mission-text-box {
+    background-color: var(--burgundy);
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 99;
+} */
+
+.about-mission-image {
+    width: 45%;
+    height: 250px;
+    background-color: #d3d3d3;
+    /* Placeholder for images */
+    background-size: cover;
+    background-position: center;
+}
+.about-mission {
+    display: flex;
+    gap: 5%;
+}
+.about-mission-image-left {
+    background-image: url("/path-to-image1.jpg");
+    /* height: 100%; */
+    flex: 1;
+}
+
+.about-mission-image-right {
+    background-image: url("/path-to-image2.jpg");
+    width: 100%;
+}
+.about-mission-right-section {
+    flex: 2;
+}
+.about-mission-description {
+    font-family: "Poppins";
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+    /* color: #333; */
+    /* max-width: 900px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 7%;
+}

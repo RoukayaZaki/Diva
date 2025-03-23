@@ -47,6 +47,8 @@ button:focus {
     display: flex;
     justify-content: space-between;
     font-weight: 300 !important;
+    font-size: 14px;
+    line-height: .4;
 }
 
 .hamburger-menu-links-section2 {
@@ -57,6 +59,21 @@ button:focus {
     justify-content: center;
     align-items: center;
     line-height: .8;
+    font-weight: 300 !important;
+}
+.hamburger-footer-socials {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    /* height: 100%; */
+    padding-top: 45%;
+    gap: 10px;
+    /* font-size: 14px; */
+    /* font-weight: 300 !important; */
+}
+.hamburger-footer-socials a {
+    padding: 0 !important;
+    font-size: 14px;
     font-weight: 300 !important;
 }
 
@@ -75,3 +92,41 @@ button:focus {
 .menu-links a:hover {
     background-color: #f1f1f1;
 }
+.hamburger-menu {
+    position: relative;
+}
+
+/* Image Wrapper */
+.hamburger-image-wrapper {
+    margin-top: 30%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/* Image Styling */
+.hamburger-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* transform: translate(0%, 50%); */
+}
+
+/* Overlapping "DIVA" Text */
+.hamburger-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    color: white;
+    font-size: 25vw;
+    font-family: serif;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Special Styling for "D" */
+/* .hamburger-cursive {
+    font-size: 8rem;
+    font-family: cursive;
+} */
