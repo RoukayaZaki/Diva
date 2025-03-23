@@ -1,8 +1,8 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Testimonial from "../components/Testmonials";
 import Title from "../components/Title";
 import '../assets/styles/about.css';
+import AboutMission from "../components/AboutMission";
 
 const philosophies = [
     {
@@ -77,7 +77,9 @@ function AboutPage() {
                     ))}
                 </div>
             </section>
-            <Testimonial />
+            
+            <AboutMission />
+
             <Footer />
         </>
     );
