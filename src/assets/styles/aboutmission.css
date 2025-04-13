@@ -60,14 +60,10 @@
 }
 .about-mission-description {
     font-family: "Poppins";
-    /* margin-top: 20px; */
     font-size: 14px;
     text-align: justify;
-    /* color: #333; */
-    /* max-width: 900px; */
     height: 20vh;
     display: flex;
-    /* flex-direction: column; */
     align-items: end;
     justify-content: end;
     margin-left: auto;
