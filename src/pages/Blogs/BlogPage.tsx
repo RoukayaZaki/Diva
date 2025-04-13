@@ -9,7 +9,9 @@ import { GoArrowRight } from "react-icons/go";
 
 function BlogPage() {
     console.log(blogs);
-
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     return (
         <>
             <Header />
@@ -35,12 +37,14 @@ function BlogPage() {
                         <p>
                             In today's fast-paced digital landscape, establishing a brand that captivates and resonates with audiences requires more than just a logo and a catchy tagline. It demands sophistication, finesse, and a keen understanding of the nuances that define luxury and excellence...
                         </p>
+                        <Link to='/blogs/1' onClick={handleClick}>
                         <button>READ NOW <GoArrowRight className="blogs-header-blog-button-arrow"/></button>
+                        </Link>
                     </div>
                 </div>
                 {blogs.map((blog, index) => (
                     <div key={index}>
-                        <Link to={`/blogs/${blog.id}`} style={{ textDecoration: 'none' }} >
+                        <Link to={`/blogs/${blog.id}`} onClick={handleClick} style={{ textDecoration: 'none' }} >
                             <BlogCard title={blog.title} id={blog.id} description={blog.description} image={blog.image} />
                         </Link>
                     </div>

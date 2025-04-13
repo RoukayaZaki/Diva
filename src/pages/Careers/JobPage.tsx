@@ -22,13 +22,16 @@ function JobPage() {
   const job = jobs[jobIndex - 1];
 
   const isMobile = useMediaQuery({ maxWidth: 1050 });
-
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
+    
     <>
       <Header />
 
       <div className="job-card">
-        <Link to="/careers" className="back-link">
+        <Link to="/careers" onClick={handleClick} className="back-link">
           {" "}
           <IoIosArrowRoundBack className="back-arrow-career" /> Back To Careers
         </Link>

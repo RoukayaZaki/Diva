@@ -10,24 +10,27 @@ import { RiInstagramFill } from 'react-icons/ri'
 import { TbBrandDribbbleFilled, TbMailFilled } from 'react-icons/tb'
 
 function MobileFooter() {
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     return (
         <footer className="footer">
             <h1 className="footer-title">LET'S WORK TOGETHER</h1>
-            <Link to="/contact" className="footer-inquiry">SEND INQUIRY</Link>
+            <Link to="/contact" onClick={handleClick} className="footer-inquiry">SEND INQUIRY</Link>
             <div className="footer-images">
                 <img src={image1} alt="Image 1" />
                 <img src={image2} alt="Image 2" />
             </div>
             <div className="footer-links">
                 <div className="footer-column">
-                    <Link to="/terms">TERMS OF SERVICE</Link>
-                    <Link to="/policy">PRIVACY POLICY</Link>
-                    <Link to="/faq">FAQ</Link>
+                    <Link to="/terms" onClick={handleClick}>TERMS OF SERVICE</Link>
+                    <Link to="/policy" onClick={handleClick}>PRIVACY POLICY</Link>
+                    <Link to="/faq" onClick={handleClick}>FAQ</Link>
                 </div>
                 <div className="footer-column">
-                    <Link to="/contact">CONTACT</Link>
-                    <Link to="/blogs">BLOG POSTS</Link>
-                    <Link to="/portfolio">OUR PORTFOLIO</Link>
+                    <Link to="/contact" onClick={handleClick}>CONTACT</Link>
+                    <Link to="/blogs" onClick={handleClick}>BLOG POSTS</Link>
+                    <Link to="/portfolio" onClick={handleClick}>OUR PORTFOLIO</Link>
                 </div>
             </div>
 
