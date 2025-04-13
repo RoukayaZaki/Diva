@@ -10,13 +10,16 @@ type JobItemProps = {
 
 const JobItem = ({ id, title, types }: JobItemProps) => {
     id++;
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     let formattedNumber = id.toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
     });
     const isMobile = useMediaQuery({ maxWidth: 1050 });
     return (
-        <Link to={`/careers/${id}`} >
+        <Link to={`/careers/${id}`} onClick={handleClick}>
         <div className="job-item">
             {!isMobile && (
 

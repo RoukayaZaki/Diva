@@ -57,7 +57,9 @@
     font-weight: 300;
     transition: color 0.3s; /* Smooth transition for hover */
 }
-
+.header a:hover {
+    color: var(--burgundy) !important;
+}
 .nav-item a:hover {
     color: var(--burgundy);
 }

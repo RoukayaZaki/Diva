@@ -10,6 +10,9 @@ import { TbBrandDribbbleFilled, TbMailFilled } from 'react-icons/tb'
 import Title from './Title';
 // import { HiMail } from 'react-icons/hi'
 function HamburgerMenu() {
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
@@ -44,15 +47,15 @@ function HamburgerMenu() {
                         </div>
                         {/* <img src="public/images/hamburger.png" alt="Menu" /> */}
                         <div className='hamburger-menu-links-section1'>
-                            <Link to="/">HOME</Link>
-                            <Link to="/about">ABOUT</Link>
-                            <Link to="/blogs">BLOGS</Link>
+                            <Link to="/" onClick={handleClick} >HOME</Link>
+                            <Link to="/about" onClick={handleClick} >ABOUT</Link>
+                            <Link to="/blogs" onClick={handleClick} >BLOGS</Link>
                         </div>
                         <div className='hamburger-menu-links-section2'>
-                            <Link to="/terms">TERMS</Link>
-                            <Link to="/contact">CONTACT</Link>
-                            <Link to="/portfolio">PORTFOLIO</Link>
-                            <Link to="/services">SERVICES</Link>
+                            <Link to="/terms" onClick={handleClick} >TERMS</Link>
+                            <Link to="/contact" onClick={handleClick} >CONTACT</Link>
+                            <Link to="/portfolio" onClick={handleClick} >PORTFOLIO</Link>
+                            <Link to="/services" onClick={handleClick} >SERVICES</Link>
                         </div>
                         <div className="hamburger-footer-socials">
                             <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">

@@ -19,10 +19,7 @@
     transition: color 0.3s;
 }
 
-.cta-button:hover a button {
-    color:  rgb(from var(--cream) r g b / 95%) !important;
+.cta-button a:hover {
+    color:  lightgray !important;
 }
 
-.cta-button button:hover {  
-    color:  rgb(from var(--cream) r g b / 95%) !important;
-}

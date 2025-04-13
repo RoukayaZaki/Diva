@@ -4,7 +4,9 @@ import "../../assets/styles/header.css";
 import Button from "../Button";
 
 function DesktopHeader() {
-
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     return (
         <>
             <Button />
@@ -12,15 +14,15 @@ function DesktopHeader() {
 
                 <nav className="nav">
                     <ul className="nav-list">
-                        <li className="nav-item"><Link to="/about">About</Link></li>
-                        <li className="nav-item"><Link to="/services">Services</Link></li>
-                        <li className="nav-item"><Link to="/contact">Contact</Link></li>
-                        <li className="nav-item"><Link to="/terms">Terms</Link></li>
-                        <li className="nav-item title"><Link to="/"><Title title="Diva" /></Link></li>
-                        <li className="nav-item"><Link to="/careers">Careers</Link></li>
-                        <li className="nav-item"><Link to="/faq">FAQ</Link></li>
-                        <li className="nav-item"><Link to="/blogs">Blogs</Link></li>
-                        <li className="nav-item"><Link to="/portfolio">Portfolio</Link></li>
+                        <li className="nav-item"><Link to="/about" onClick={handleClick}>About</Link></li>
+                        <li className="nav-item"><Link to="/services" onClick={handleClick}>Services</Link></li>
+                        <li className="nav-item"><Link to="/contact" onClick={handleClick}>Contact</Link></li>
+                        <li className="nav-item"><Link to="/terms" onClick={handleClick}>Terms</Link></li>
+                        <li className="nav-item title"><Link to="/" onClick={handleClick}><Title title="Diva" /></Link></li>
+                        <li className="nav-item"><Link to="/careers" onClick={handleClick}>Careers</Link></li>
+                        <li className="nav-item"><Link to="/faq" onClick={handleClick}>FAQ</Link></li>
+                        <li className="nav-item"><Link to="/blogs" onClick={handleClick}>Blogs</Link></li>
+                        <li className="nav-item"><Link to="/portfolio" onClick={handleClick}>Portfolio</Link></li>
                     </ul>
                 </nav>
             </header>
