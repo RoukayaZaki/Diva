@@ -21,6 +21,9 @@
 /* Add this to your CSS file */
 .slider-container {
   width: 80%;
+  /* height: fit-content; */
+  overflow: visible !important;
+  
   margin: 0 auto;
 }
 
@@ -30,16 +33,37 @@
 
 .slick-slide>div {
   margin: 0 10px;
-  /* Add gap between cards */
 }
 
-/* Style the active (center) card */
+.project-card {
+  text-align: center;
+  transition: transform 0.3s ease;
+  overflow: visible;
+}
+
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.slick-slide-wrapper.active .project-card img {
+  transform: scale(1.2);
+  transform-origin: center;
+  padding-bottom: 14%;
+  z-index: 2;
+}
+
+
+/* .slick-slide-wrapper {
+  position: relative;
+  overflow: visible !important;
+  transition: transform 0.3s ease;
+}
+
 .slick-slide-wrapper.active {
   transform: scale(1.2);
-  /* Make the center card bigger */
+  transform-origin: center;
   z-index: 1;
-  /* Bring the center card to the front */
-}
+} */
 /* .slick-arrow.slick-next:hover,
 .slick-arrow.slick-prev:hover
 {

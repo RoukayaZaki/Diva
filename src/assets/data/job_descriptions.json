@@ -1,198 +1,261 @@
 [
-    {
-        "title": "Brand Identity Designer",
-        "company": "Diva Solutions",
-        "type": [
-            "Full-time",
-            "Hybrid"
-        ],
-        "location": "Cairo (Remote & Office)",
-        "responsibilities": [
-            "Develop and create innovative visual identities that align with clients' brand goals and values.",
-            "Design logos, color schemes, typography, and other visual elements that maintain brand consistency across all platforms.",
-            "Collaborate closely with the creative team to ensure visual assets meet project objectives and client expectations.",
-            "Conduct research on industry trends and competitor analysis to inform design decisions.",
-            "Present and communicate design concepts and rationale to internal teams and clients.",
-            "Adapt designs based on feedback and critique from team members and stakeholders.",
-            "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
-            "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
-        ],
-        "requirements": [
-            "Proven experience as a Brand Identity Designer or similar role, with a strong portfolio showcasing successful brand identity projects.",
-            "Proficiency in design software such as Adobe Creative Suite (Illustrator, Photoshop, InDesign).",
-            "Solid understanding of branding principles, including visual hierarchy, typography, color theory, and composition.",
-            "Ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
-            "Excellent communication skills with the ability to present and articulate design concepts effectively.",
-            "Ability to work both independently and collaboratively in a hybrid work environment.",
-            "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
-            "Bachelor's degree in Graphic Design, Visual Arts, or a related field is preferred."
-        ],
-        "benefits": [
-            "Competitive salary commensurate with experience.",
-            "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
-            "Opportunities for professional growth and development through ongoing training and mentorship.",
-            "Join a dynamic and creative team that values innovation, creativity, and excellence."
-        ],
-        "application": [
-            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Brand Identity Designer - [Your Full Name]'."
-        ]
-    },
-    {
-        "title": "Graphic Designer",
-        "company": "Diva Solutions",
-        "type": [
-            "Full-time",
-            "Hybrid"
-        ],
-        "location": "Cairo (Remote & Office)",
-        "responsibilities": [
-            "Develop and create innovative graphic designs that align with clients' brand goals and values.",
-            "Design marketing materials, including brochures, posters, social media graphics, and web visuals.",
-            "Collaborate closely with the creative team to ensure visual assets meet project objectives and client expectations.",
-            "Conduct research on industry trends and competitor analysis to inform design decisions.",
-            "Present and communicate design concepts and rationale to internal teams and clients.",
-            "Adapt designs based on feedback and critique from team members and stakeholders.",
-            "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
-            "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
-        ],
-        "requirements": [
-            "Proven experience as a Graphic Designer or similar role, with a strong portfolio showcasing successful graphic design projects.",
-            "Proficiency in design software such as Adobe Creative Suite (Illustrator, Photoshop, InDesign).",
-            "User-friendly with Canva platform and able to create visually appealing designs using its tools.",
-            "Solid understanding of design principles, including visual hierarchy, typography, color theory, and composition.",
-            "Ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
-            "Excellent communication skills with the ability to present and articulate design concepts effectively.",
-            "Ability to work both independently and collaboratively in a hybrid work environment.",
-            "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
-            "Bachelor's degree in Graphic Design, Visual Arts, or a related field is preferred."
-        ],
-        "benefits": [
-            "Competitive salary commensurate with experience.",
-            "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
-            "Opportunities for professional growth and development through ongoing training and mentorship.",
-            "Join a dynamic and creative team that values innovation, creativity, and excellence."
-        ],
-        "application": [
-            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Graphic Designer - [Your Full Name]'."
-        ]
-    },
-    {
-        "title": "UI/UX Designer",
-        "company": "Diva Solutions",
-        "type": [
-            "Full-time",
-            "Hybrid"
-        ],
-        "location": "Cairo (Remote & Office)",
-        "responsibilities": [
-            "Develop and create innovative UI/UX designs that align with clients' brand goals and values.",
-            "Design user interfaces for websites, mobile applications, and other digital platforms.",
-            "Conduct user research and usability testing to inform design decisions.",
-            "Create wireframes, prototypes, and high-fidelity mockups to communicate design concepts.",
-            "Collaborate closely with the development and creative teams to ensure visual and functional design elements meet project objectives and client expectations.",
-            "Present and communicate design concepts and rationale to internal teams and clients.",
-            "Adapt designs based on feedback and critique from team members and stakeholders.",
-            "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
-            "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
-        ],
-        "requirements": [
-            "Proven experience as a UI/UX Designer or similar role, with a strong portfolio showcasing successful UI/UX design projects.",
-            "Proficiency in design software such as Adobe Creative Suite (Illustrator, Photoshop, XD), Sketch, and Figma.",
-            "Solid understanding of UX principles, including user research, information architecture, interaction design, and usability testing.",
-            "Ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
-            "Excellent communication skills with the ability to present and articulate design concepts effectively.",
-            "Ability to work both independently and collaboratively in a hybrid work environment.",
-            "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
-            "Bachelor's degree in Graphic Design, Interaction Design, Human-Computer Interaction, or a related field is preferred."
-        ],
-        "benefits": [
-            "Competitive salary commensurate with experience.",
-            "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
-            "Opportunities for professional growth and development through ongoing training and mentorship.",
-            "Join a dynamic and creative team that values innovation, creativity, and excellence."
-        ],
-        "application": [
-            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for UI/UX Designer - [Your Full Name]'."
-        ]
-    },
-    {
-        "title": "Front-end Developer",
-        "company": "Diva Solutions",
-        "type": [
-            "Full-time",
-            "Hybrid"
-        ],
-        "location": "Cairo (Remote & Office)",
-        "responsibilities": [
-            "Develop and create innovative web applications that align with clients' brand goals and values.",
-            "Implement responsive designs using HTML, CSS, and JavaScript frameworks.",
-            "Collaborate closely with the design and back-end development teams to ensure visual and functional design elements meet project objectives and client expectations.",
-            "Optimize web applications for maximum speed and scalability.",
-            "Conduct testing and debugging to ensure web applications function seamlessly across different devices and browsers.",
-            "Present and communicate development concepts and rationale to internal teams and clients.",
-            "Adapt code based on feedback and critique from team members and stakeholders.",
-            "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
-            "Stay updated on web development trends, tools, and technologies to continuously improve skills and approaches."
-        ],
-        "requirements": [
-            "Proven experience as a Front-end Developer or similar role, with a strong portfolio showcasing successful web development projects.",
-            "Proficiency in HTML, CSS, Bootstrap, JavaScript, and React is a MUST.",
-            "Experience with version control systems like Git.",
-            "Solid understanding of UX/UI principles and ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
-            "Excellent communication skills with the ability to present and articulate development concepts effectively.",
-            "Ability to work both independently and collaboratively in a hybrid work environment.",
-            "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
-            "Bachelor's degree in Computer Science, Web Development, or a related field is preferred."
-        ],
-        "benefits": [
-            "Competitive salary commensurate with experience.",
-            "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
-            "Opportunities for professional growth and development through ongoing training and mentorship.",
-            "Join a dynamic and creative team that values innovation, creativity, and excellence."
-        ],
-        "application": [
-            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Front-end Developer - [Your Full Name]'."
-        ]
-    },
-    {
-        "title": "Back-end Developer",
-        "company": "Diva Solutions",
-        "type": [
-            "Full-time",
-            "Hybrid"
-        ],
-        "location": "Cairo (Remote & Office)",
-        "responsibilities": [
-            "Develop and maintain server-side logic, ensuring high performance and responsiveness to requests from the front-end.",
-            "Design and implement database structures that are scalable and secure.",
-            "Integrate front-end elements built by your colleagues into the application.",
-            "Collaborate closely with front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience.",
-            "Optimize applications for maximum speed and scalability.",
-            "Conduct testing and debugging to ensure a smooth user experience and application functionality.",
-            "Present and communicate development concepts and rationale to internal teams and clients.",
-            "Adapt code based on feedback and critique from team members and stakeholders.",
-            "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
-            "Stay updated on back-end development trends, tools, and technologies to continuously improve skills and approaches."
-        ],
-        "requirements": [
-            "Proven experience as a Back-end Developer or similar role, with a strong portfolio showcasing successful web development projects.",
-            "Proficiency in server-side languages such as Node.js, PHP, or .NET is a MUST.",
-            "Experience with database management systems such as MySQL, PostgreSQL, MongoDB, or similar.",
-            "Solid understanding of RESTful APIs, microservices architecture, and web security standards.",
-            "Familiarity with cloud services such as AWS, Google Cloud, or Azure.",
-            "Excellent communication skills with the ability to present and articulate development concepts effectively.",
-            "Ability to work both independently and collaboratively in a hybrid work environment.",
-            "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
-            "Bachelor's degree in Computer Science, Web Development, or a related field is preferred."
-        ],
-        "benefits": [
-            "Competitive salary commensurate with experience.",
-            "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
-            "Opportunities for professional growth and development through ongoing training and mentorship.",
-            "Join a dynamic and creative team that values innovation, creativity, and excellence."
-        ],
-        "application": [
-            "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Back-end Developer - [Your Full Name]'."
-        ]
-    }
+  {
+    "title": "Brand Identity Designer",
+    "company": "Diva Solutions",
+    "type": ["Full-time", "Hybrid"],
+    "description": "Are you a creative thinker with a passion for crafting visually compelling brand identities? Join Diva Solutions as a Brand Identity Designer in a full-time hybrid position, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and create innovative visual identities that align with clients' brand goals and values.",
+      "Design logos, color schemes, typography, and other visual elements that maintain brand consistency across all platforms.",
+      "Collaborate closely with the creative team to ensure visual assets meet project objectives and client expectations.",
+      "Conduct research on industry trends and competitor analysis to inform design decisions.",
+      "Present and communicate design concepts and rationale to internal teams and clients.",
+      "Adapt designs based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a Brand Identity Designer or similar role, with a strong portfolio showcasing successful brand identity projects.",
+      "Proficiency in design software such as Adobe Creative Suite (Illustrator, Photoshop, InDesign).",
+      "Solid understanding of branding principles, including visual hierarchy, typography, color theory, and composition.",
+      "Ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
+      "Excellent communication skills with the ability to present and articulate design concepts effectively.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Graphic Design, Visual Arts, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Brand Identity Designer - [Your Full Name]'."
+    ]
+  },
+  {
+    "title": "Graphic Designer",
+    "company": "Diva Solutions",
+    "type": ["Full-time", "Hybrid"],
+    "description": "Are you a creative thinker with a passion for designing visually compelling graphics? Join Diva Solutions as a Graphic Designer in a full-time hybrid position, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and create innovative graphic designs that align with clients' brand goals and values.",
+      "Design marketing materials, including brochures, posters, social media graphics, and web visuals.",
+      "Collaborate closely with the creative team to ensure visual assets meet project objectives and client expectations.",
+      "Conduct research on industry trends and competitor analysis to inform design decisions.",
+      "Present and communicate design concepts and rationale to internal teams and clients.",
+      "Adapt designs based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a Graphic Designer or similar role, with a strong portfolio showcasing successful graphic design projects.",
+      "Proficiency in design software such as Adobe Creative Suite (Illustrator, Photoshop, InDesign).",
+      "User-friendly with Canva platform and able to create visually appealing designs using its tools.",
+      "Solid understanding of design principles, including visual hierarchy, typography, color theory, and composition.",
+      "Ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
+      "Excellent communication skills with the ability to present and articulate design concepts effectively.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Graphic Design, Visual Arts, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Graphic Designer - [Your Full Name]'."
+    ]
+  },
+  {
+    "title": "UI/UX Designer",
+    "company": "Diva Solutions",
+    "type": ["Full-time", "Hybrid"],
+    "description": "Are you a creative thinker with a passion for crafting user-friendly and visually compelling digital experiences? Join Diva Solutions as a UI/UX Designer in a full-time hybrid position, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and create innovative UI/UX designs that align with clients' brand goals and values.",
+      "Design user interfaces for websites, mobile applications, and other digital platforms.",
+      "Conduct user research and usability testing to inform design decisions.",
+      "Create wireframes, prototypes, and high-fidelity mockups to communicate design concepts.",
+      "Collaborate closely with the development and creative teams to ensure visual and functional design elements meet project objectives and client expectations.",
+      "Present and communicate design concepts and rationale to internal teams and clients.",
+      "Adapt designs based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a UI/UX Designer or similar role, with a strong portfolio showcasing successful UI/UX design projects.",
+      "Proficiency in design software such as Adobe Creative Suite (Illustrator, Photoshop, XD), Sketch, and Figma.",
+      "Solid understanding of UX principles, including user research, information architecture, interaction design, and usability testing.",
+      "Ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
+      "Excellent communication skills with the ability to present and articulate design concepts effectively.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Graphic Design, Interaction Design, Human-Computer Interaction, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for UI/UX Designer - [Your Full Name]'."
+    ]
+  },
+  {
+    "title": "Front-end Developer",
+    "company": "Diva Solutions",
+    "type": ["Full-time", "Hybrid"],
+    "description": "Are you a creative thinker with a passion for developing visually compelling and user-friendly web applications? Join Diva Solutions as a Front-end Developer in a full-time hybrid position, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and create innovative web applications that align with clients' brand goals and values.",
+      "Implement responsive designs using HTML, CSS, and JavaScript frameworks.",
+      "Collaborate closely with the design and back-end development teams to ensure visual and functional design elements meet project objectives and client expectations.",
+      "Optimize web applications for maximum speed and scalability.",
+      "Conduct testing and debugging to ensure web applications function seamlessly across different devices and browsers.",
+      "Present and communicate development concepts and rationale to internal teams and clients.",
+      "Adapt code based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on web development trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a Front-end Developer or similar role, with a strong portfolio showcasing successful web development projects.",
+      "Proficiency in HTML, CSS, Bootstrap, JavaScript, and React is a MUST.",
+      "Experience with version control systems like Git.",
+      "Solid understanding of UX/UI principles and ability to work with luxury approach designs, delivering high-end, sophisticated visuals.",
+      "Excellent communication skills with the ability to present and articulate development concepts effectively.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Computer Science, Web Development, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Front-end Developer - [Your Full Name]'."
+    ]
+  },
+  {
+    "title": "Back-end Developer",
+    "company": "Diva Solutions",
+    "type": ["Full-time", "Hybrid"],
+    "description": "Are you a creative thinker with a passion for building robust and scalable web applications? Join Diva Solutions as a Back-end Developer in a full-time hybrid position, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and maintain server-side logic, ensuring high performance and responsiveness to requests from the front-end.",
+      "Design and implement database structures that are scalable and secure.",
+      "Integrate front-end elements built by your colleagues into the application.",
+      "Collaborate closely with front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience.",
+      "Optimize applications for maximum speed and scalability.",
+      "Conduct testing and debugging to ensure a smooth user experience and application functionality.",
+      "Present and communicate development concepts and rationale to internal teams and clients.",
+      "Adapt code based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on back-end development trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a Back-end Developer or similar role, with a strong portfolio showcasing successful web development projects.",
+      "Proficiency in server-side languages such as Node.js, PHP, or .NET is a MUST.",
+      "Experience with database management systems such as MySQL, PostgreSQL, MongoDB, or similar.",
+      "Solid understanding of RESTful APIs, microservices architecture, and web security standards.",
+      "Familiarity with cloud services such as AWS, Google Cloud, or Azure.",
+      "Excellent communication skills with the ability to present and articulate development concepts effectively.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Computer Science, Web Development, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply, send your resume, portfolio, and a cover letter to career@thedivasolutions.com with the subject line 'Application for Back-end Developer - [Your Full Name]'."
+    ]
+  },
+
+  {
+    "title": "Brand Strategist",
+    "company": "Diva Solutions",
+    "type": ["Part-time", "Hybrid"],
+    "description": "Are you a strategic thinker with a passion for developing compelling brand strategies? Join Diva Solutions as a Brand Strategist in a part-time hybrid position, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and implement innovative brand strategies that align with clients' goals and values.",
+      "Conduct thorough market research and analysis to understand industry trends, competitor strategies, and target audiences.",
+      "Collaborate closely with the creative and marketing teams to ensure brand strategies are effectively executed across all platforms.",
+      "Create and maintain brand guidelines to ensure consistency in messaging and visual identity.",
+      "Present and communicate brand strategies and rationale to internal teams and clients.",
+      "Adapt strategies based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on branding trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a Brand Strategist or similar role, with a strong portfolio showcasing successful brand strategy projects.",
+      "Proficiency in market research tools and methodologies.",
+      "Solid understanding of branding principles, including brand positioning, messaging, and visual identity.",
+      "Excellent communication skills with the ability to present and articulate brand strategies effectively.",
+      "Ability to work with luxury approach designs, delivering high-end, sophisticated strategies.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Marketing, Business, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply or for more information, please contact us at career@thedivasolutions.com. Include your resume, portfolio, and a cover letter detailing your interest in the position and relevant experience. Please use the subject line 'Application for Brand Strategist - [Your Full Name]' in your email."
+    ]
+  },
+  {
+    "title": "Product Designer",
+    "company": "Diva Solutions",
+    "type": ["Contract", "Hybrid"],
+    "description": "Are you a creative thinker with a passion for designing innovative and visually compelling products? Join Diva Solutions as a Product Designer on a contract basis, allowing you to work remotely and from our Cairo office.",
+    "location": "Cairo (Remote & Office)",
+    "responsibilities": [
+      "Develop and create innovative product designs, including packaging and physical products such as perfume bottles, that align with clients' brand goals and values.",
+      "Conduct market research and competitor analysis to inform design decisions and ensure products stand out in the market.",
+      "Create detailed sketches, 3D models, and prototypes to communicate design concepts.",
+      "Collaborate closely with the manufacturing team to ensure designs are feasible and meet production requirements.",
+      "Present and communicate design concepts and rationale to internal teams and clients.",
+      "Adapt designs based on feedback and critique from team members and stakeholders.",
+      "Manage multiple projects simultaneously and prioritize tasks effectively to meet deadlines.",
+      "Stay updated on design trends, tools, and technologies to continuously improve skills and approaches."
+    ],
+    "requirements": [
+      "Proven experience as a Product Designer or similar role, with a strong portfolio showcasing successful product design projects.",
+      "Proficiency in design software such as Adobe Creative Suite, Rhino, SolidWorks, or similar tools.",
+      "Solid understanding of materials, manufacturing processes, and product development.",
+      "Ability to work with luxury approach designs, delivering high-end, sophisticated products.",
+      "Excellent communication skills with the ability to present and articulate design concepts effectively.",
+      "Ability to work both independently and collaboratively in a hybrid work environment.",
+      "Attention to detail and a commitment to delivering high-quality work under tight deadlines.",
+      "Bachelor's degree in Product Design, Industrial Design, or a related field is preferred."
+    ],
+    "benefits": [
+      "Competitive salary commensurate with experience.",
+      "Hybrid work model allowing flexibility between remote work and office-based collaboration in Cairo.",
+      "Opportunities for professional growth and development through ongoing training and mentorship.",
+      "Join a dynamic and creative team that values innovation, creativity, and excellence."
+    ],
+    "application": [
+      "To apply or for more information, please contact us at career@thedivasolutions.com. Include your resume, portfolio, and a cover letter detailing your interest in the position and relevant experience. Please use the subject line 'Application for Product Designer - [Your Full Name]' in your email."
+    ]
+  }
 ]

@@ -19,6 +19,10 @@
     transition: color 0.3s;
 }
 
-.cta-button a:hover {
-    color:  rgb(from var(--cream) r g b / 45%);/* Gold hover effect */
+.cta-button:hover a button {
+    color:  rgb(from var(--cream) r g b / 95%) !important;
+}
+
+.cta-button button:hover {  
+    color:  rgb(from var(--cream) r g b / 95%) !important;
 }

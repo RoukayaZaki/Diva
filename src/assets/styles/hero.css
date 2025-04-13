@@ -286,11 +286,6 @@
 }
 
 
-/* Add this to your CSS file */
-.slider-container {
-  width: 80%;
-  margin: 0 auto;
-}
 
 
 @media (max-width: 1050px) {
