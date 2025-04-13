@@ -1,4 +1,6 @@
 import '../assets/styles/blogs.css'
+import { GoArrowRight} from 'react-icons/go';
+
 
 type BlogCardProps = {
     id: string,
@@ -13,7 +15,10 @@ function BlogCard({  title, image, description }: BlogCardProps) {
         <div className="luxury-card">
             <div className='luxury-card__image'>
 
-                <img src={image} alt={title} className='luxury-card__image'/>
+                <div style={{ position: 'relative' }}>
+                    <img src={image} alt={title} className='luxury-card__image'/>
+                    <GoArrowRight style={{ position: 'absolute', bottom: '20px', right: '20px', color: 'var(--cream)', fontSize: '2rem' }}/>
+                </div>
                 <div className='luxury-card__image-overlay'/>
             </div>
 
