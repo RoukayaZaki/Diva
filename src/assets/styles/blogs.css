@@ -18,34 +18,97 @@
 }
 .blogs-header-headline {
   flex: 2;
-  /* display: flex; */
+  display: flex;
+  transform: translateX(-10%);
   /* justify-content: space-between; */
 }
 .blogs-header-headline-title {
-  /* flex: 1; */
-  position: absolute;
+  /* position: absolute; */
   z-index: 100;
-
+  flex: 1;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-self: center; */
-  /* align-items: center; */
+  transform: translateX(33%);
+  left: 50%;
 }
 .blogs-header-headline-title h1 {
-  font-size: 10rem;
+  font-family: voga;
+  font-size: 18rem;
   font-weight: 500;
+  line-height: .8;
   margin: 10px 0;
 }
-
+.blogs-header-headline-title p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: .6;
+  margin: 10px 0;
+}
 .blogs-header-headline-img {
-  /* flex: 1; */
-  position: relative;
-  
+  /* position: relative; */
+  /* width: 100%;
+  height: 100%; */
+  flex: 1;
+  height: 70vh;
+  justify-self: center;
 }
 .blogs-header-blog {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: end; */
+}
+.blogs-header-blog h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: voga;
+  line-height: .9;
+  /* margin: 10px 0; */
+  /* text-align: center; */
+}
+
+.blogs-header-blog p {
+  font-size: 1rem;
+  font-weight: 300;
+  /* line-height: 1.5; */
+  margin: 10px 0;
+  /* text-align: center; */
+}
+
+.blogs-header-blog button {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 10px 0;
+  text-align: center;
+  background-color: var(--burgundy);
+  color: var(--cream);
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: fit-content;
+  /* width: 35%; */
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
+
+.blogs-header-blog button:hover {
+  background-color: var(--burgundy);
+  color: lightgray;
+}
+.blogs-header-blog-button-arrow {
+  font-size: 1.5rem;
+  /* font-weight: 500; */
+  margin-left: 10px;
+  text-align: center;
+  background-color: var(--burgundy);
+  /* color: var(--cream); */
+  border: none;
 }
 
 .blogs span {
@@ -112,6 +175,7 @@
   /* padding:  5px 10px 25px 0px; */
   text-align: justify;
   font-family: "Poppins";
+  font-weight: 300;
 }
 
 .luxury-card__title {

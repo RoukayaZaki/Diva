@@ -3,8 +3,9 @@ import Header from "../../components/Header";
 import blogs from '../../assets/data/blogs.json';
 import BlogCard from "../../components/BlogCard";
 import Footer from "../../components/Footer";
-import headerphoto from '../../assets/images/blogs/blog-1.jpg';
+import headerphoto from '../../assets/images/blogs/header-blogs.png';
 import { Link } from "react-router-dom";
+import { GoArrowRight } from "react-icons/go";
 
 function BlogPage() {
     console.log(blogs);
@@ -20,7 +21,7 @@ function BlogPage() {
                                 Story of the
                             </p>
                             <h1>
-                                Week
+                                WEEK
                             </h1>
                         </div>
                         <img src={headerphoto} className="blogs-header-headline-img" alt="" />
@@ -34,7 +35,7 @@ function BlogPage() {
                         <p>
                             In today's fast-paced digital landscape, establishing a brand that captivates and resonates with audiences requires more than just a logo and a catchy tagline. It demands sophistication, finesse, and a keen understanding of the nuances that define luxury and excellence...
                         </p>
-                        <button>Read now</button>
+                        <button>READ NOW <GoArrowRight className="blogs-header-blog-button-arrow"/></button>
                     </div>
                 </div>
                 {blogs.map((blog, index) => (
