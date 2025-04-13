@@ -48,7 +48,9 @@
   margin: 10px 0;
 }
 .blogs-header-headline-img {
-  position: relative;
+  /* position: relative; */
+  /* width: 100%;
+  height: 100%; */
   flex: 1;
   height: 70vh;
   justify-self: center;
@@ -141,7 +143,7 @@
 }
 
 .luxury-card:hover .luxury-card__image-overlay {
-  background-color: rgb(from var(--burgundy) r g b / 70%);
+  background-color: rgb(from var(--black) r g b / 70%);
   
   /* transform: translateY(-10px); */
   /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); */
@@ -162,7 +164,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(from var(--burgundy) r g b / 0%);
+  background-color: rgb(from var(--black) r g b / 0%);
   /* Burgundy color with 0 opacity */
   transition: background-color 0.3s ease;
   /* Smooth transition */
