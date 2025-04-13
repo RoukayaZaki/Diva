@@ -17,7 +17,7 @@ function BlogCard({  title, image, description }: BlogCardProps) {
 
                 <div style={{ position: 'relative' }}>
                     <img src={image} alt={title} className='luxury-card__image'/>
-                    <GoArrowRight style={{ position: 'absolute', bottom: '20px', right: '20px', color: 'var(--cream)', fontSize: '2rem' }}/>
+                    <GoArrowRight style={{ position: 'absolute', bottom: '20px', right: '20px', color: 'var(--cream)', fontSize: '2rem', zIndex: '100' }}/>
                 </div>
                 <div className='luxury-card__image-overlay'/>
             </div>
