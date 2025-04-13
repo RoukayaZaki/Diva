@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 import Header from "../../components/Header";
-import jobs from '../../assets/data/job_descriptions.json'
+import jobs from "../../assets/data/job_descriptions.json";
 import Footer from "../../components/Footer";
 import Benefits from "../../components/Benefits";
-import '../../assets/styles/job.css';
+import "../../assets/styles/job.css";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import Title from "../../components/Title";
@@ -12,78 +12,75 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 function JobPage() {
-    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-    const handleToggleExpand = (index: number) => {
-        setExpandedIndex(expandedIndex === index ? null : index);
-    };
-    const { id } = useParams();
-    const jobIndex = parseInt(id!, 10);
-    const job = jobs[jobIndex - 1];
+  const handleToggleExpand = (index: number) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+  const { id } = useParams();
+  const jobIndex = parseInt(id!, 10);
+  const job = jobs[jobIndex - 1];
 
-    const isMobile = useMediaQuery({ maxWidth: 1050 });
+  const isMobile = useMediaQuery({ maxWidth: 1050 });
 
-    return (
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            <div className="job-card">
-                <Link to="/careers" className="back-link"> <IoIosArrowRoundBack className="back-arrow-career" /> Back To Careers</Link>
-                <div className="job-data">
-                    {isMobile &&
-                        (
-                            <div className="jobpage-item-line" />
-                        )}
-                    <div className="job-header">
-                        <h1 className="job-title">
-                            <Title title={job.title} />
-                        </h1>
-                        <div className="job-meta">
-                            {job.type.map((jobType) => (
-                                <p>
-                                    ({jobType})
-                                </p>
-                            ))}
-                        </div>
+      <div className="job-card">
+        <Link to="/careers" className="back-link">
+          {" "}
+          <IoIosArrowRoundBack className="back-arrow-career" /> Back To Careers
+        </Link>
+        <div className="job-data">
+          {isMobile && <div className="jobpage-item-line" />}
+          <div className="job-header">
+            <h1 className="job-title">
+              <Title title={job.title} />
+            </h1>
+            <div className="job-meta">
+              {job.type.map((jobType) => (
+                <p>({jobType})</p>
+              ))}
+            </div>
+          </div>
+          <p className="job-description">
+            {job.description}
+          </p>
 
-                    </div>
-                    <p className="job-description">
-                        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                    </p>
+          <div className="job-expandable-items">
+            <div className="jobpage-item-line" />
+            <JobExpandableItem
+              key={0}
+              title="Responsibilities"
+              description={job.responsibilities}
+              isExpanded={expandedIndex === 0}
+              onToggle={() => handleToggleExpand(0)}
+            />
+            <JobExpandableItem
+              key={1}
+              title="Requirements"
+              description={job.requirements}
+              isExpanded={expandedIndex === 1}
+              onToggle={() => handleToggleExpand(1)}
+            />
+            <JobExpandableItem
+              key={2}
+              title="Benefits"
+              description={job.benefits}
+              isExpanded={expandedIndex === 2}
+              onToggle={() => handleToggleExpand(2)}
+            />
+            <JobExpandableItem
+              key={3}
+              title="Application"
+              description={job.application}
+              isExpanded={expandedIndex === 3}
+              onToggle={() => handleToggleExpand(3)}
+            />
+          </div>
 
-                    <div className="job-expandable-items">
-                        <div className="jobpage-item-line" />
-                        <JobExpandableItem
-                            key={0}
-                            title="Responsibilities"
-                            description={job.responsibilities}
-                            isExpanded={expandedIndex === 0}
-                            onToggle={() => handleToggleExpand(0)}
-                        />
-                        <JobExpandableItem
-                            key={1}
-                            title="Requirements"
-                            description={job.requirements}
-                            isExpanded={expandedIndex === 1}
-                            onToggle={() => handleToggleExpand(1)}
-                        />
-                        <JobExpandableItem
-                            key={2}
-                            title="Benefits"
-                            description={job.benefits}
-                            isExpanded={expandedIndex === 2}
-                            onToggle={() => handleToggleExpand(2)}
-                        />
-                        <JobExpandableItem
-                            key={3}
-                            title="Application"
-                            description={job.application}
-                            isExpanded={expandedIndex === 3}
-                            onToggle={() => handleToggleExpand(3)}
-                        />
-                    </div>
-
-                    {/* {job.requirements && (
+          {/* {job.requirements && (
                         <>
                             <h2 className="section-title">Requirements</h2>
                             <ul className="job-list">
@@ -94,7 +91,7 @@ function JobPage() {
                         </>
                     )} */}
 
-                    {/* {job.benefits && (
+          {/* {job.benefits && (
                         <>
                             <h2 className="section-title">Benefits</h2>
                             <ul className="job-list">
@@ -104,13 +101,13 @@ function JobPage() {
                             </ul>
                         </>
                     )} */}
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <Benefits />
-            <Footer />
-        </>
-    );
+      <Benefits />
+      <Footer />
+    </>
+  );
 }
 
 export default JobPage;

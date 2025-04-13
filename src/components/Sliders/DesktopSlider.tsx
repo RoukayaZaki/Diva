@@ -1,16 +1,16 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import projects from '../../assets/data/highlighted_projects.json';
-import ProjectCard from '../ProjectCard';
-import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io'; // Import icons from react-icons
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import projects from "../../assets/data/highlighted_projects.json";
+import ProjectCard from "../ProjectCard";
+import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io"; // Import icons from react-icons
 interface ArrowProps {
   onClick?: () => void;
 }
 function DesktopSlider() {
   const totalSlides = projects.length;
-  const [activeSlide, setActiveSlide] = React.useState(0);
+  const [activeSlide, setActiveSlide] = React.useState(1);
 
   // Custom Previous Arrow Component
   const CustomPrevArrow = (props: ArrowProps) => {
@@ -20,14 +20,14 @@ function DesktopSlider() {
         className="slick-arrow slick-prev"
         onClick={onClick}
         style={{
-          position: 'absolute',
-          left: '-25px', // Adjust positioning as needed
-          top: '50%',
-          transform: 'translateY(-50%)',
+          position: "absolute",
+          left: "-25px", // Adjust positioning as needed
+          top: "50%",
+          transform: "translateY(-50%)",
           zIndex: 1,
-          background: 'none',
-          border: 'none',
-          cursor: 'pointer',
+          background: "none",
+          border: "none",
+          cursor: "pointer",
         }}
       >
         <IoIosArrowBack size={24} /> {/* Use react-icons */}
@@ -43,14 +43,14 @@ function DesktopSlider() {
         className="slick-arrow slick-next"
         onClick={onClick}
         style={{
-          position: 'absolute',
-          right: '-25px', // Adjust positioning as needed
-          top: '50%',
-          transform: 'translateY(-50%)',
+          position: "absolute",
+          right: "-25px", // Adjust positioning as needed
+          top: "50%",
+          transform: "translateY(-50%)",
           zIndex: 1,
-          background: 'none',
-          border: 'none',
-          cursor: 'pointer',
+          background: "none",
+          border: "none",
+          cursor: "pointer",
         }}
       >
         <IoIosArrowForward size={24} /> {/* Use react-icons */}
@@ -68,12 +68,9 @@ function DesktopSlider() {
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />, // Use custom previous arrow
     nextArrow: <CustomNextArrow />, // Use custom next arrow
-    beforeChange: (next: number) => {
-      let activeIndex = next + 1;
-      if (activeIndex === totalSlides) {
-        activeIndex = 0;
-      }
-      setActiveSlide(activeIndex);
+    beforeChange: (_current: number, next: number) => {
+      const middleIndex = (next + 1) % totalSlides;
+      setActiveSlide(middleIndex);
     },
   };
 
@@ -84,10 +81,14 @@ function DesktopSlider() {
           <div
             key={project.id}
             className={`slick-slide-wrapper ${
-              ((index - 1) >= 0 ? index - 1 : totalSlides - 1) === activeSlide ? 'active' : ''
+              index === activeSlide ? "active" : ""
             }`}
           >
-            <ProjectCard id={project.id} title={project.title} image={project.image} />
+            <ProjectCard
+              id={project.id}
+              title={project.title}
+              image={project.image}
+            />
           </div>
         ))}
       </Slider>
