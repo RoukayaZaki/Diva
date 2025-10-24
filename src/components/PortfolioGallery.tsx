@@ -78,12 +78,12 @@ const PortfolioGallery: React.FC = () => {
 
     // Sample gallery data - replace with your actual data
     const galleryItems: GalleryItem[] = [
-        { id: 1, title: "Brand Project", domain: "BRAND.COM", category: "Brand Identity", imageUrl: "/brand1.jpg", spanTwoColumns: false },
-        { id: 2, title: "UI Project", domain: "UIEXAMPLE.COM", category: "UI/UX Design", imageUrl: "/ui1.jpg", spanTwoColumns: true },
-        { id: 3, title: "Social Campaign", domain: "SOCIALMEDIA.COM", category: "Social Media & Content Creation", imageUrl: "/social1.jpg", spanTwoColumns: false },
-        { id: 4, title: "Luxury Event", domain: "LUXURYEVENT.COM", category: "Luxury Event Branding", imageUrl: "/event1.jpg", spanTwoColumns: false },
-        { id: 5, title: "Another Brand", domain: "ANOTHERBRAND.COM", category: "Brand Identity", imageUrl: "/brand2.jpg", spanTwoColumns: false },
-        { id: 6, title: "Mobile App", domain: "MOBILEAPP.COM", category: "UI/UX Design", imageUrl: "/ui2.jpg", spanTwoColumns: true },
+        { id: 1, title: "Brand Project", domain: "BRAND.COM", category: "Brand Identity", imageUrl: "public/images/portfolio/main/photo1.png", spanTwoColumns: false },
+        { id: 2, title: "UI Project", domain: "UIEXAMPLE.COM", category: "UI/UX Design", imageUrl: "public/images/portfolio/main/photo\ 2.png", spanTwoColumns: true },
+        { id: 3, title: "Social Campaign", domain: "SOCIALMEDIA.COM", category: "Social Media & Content Creation", imageUrl: "public/images/portfolio/main/photo\ 3.png", spanTwoColumns: false },
+        { id: 4, title: "Luxury Event", domain: "LUXURYEVENT.COM", category: "Luxury Event Branding", imageUrl: "public/images/portfolio/main/photo\ 4.png", spanTwoColumns: false },
+        { id: 5, title: "Another Brand", domain: "ANOTHERBRAND.COM", category: "Brand Identity", imageUrl: "public/images/portfolio/main/photo\ 5.png", spanTwoColumns: false },
+        { id: 6, title: "Mobile App", domain: "MOBILEAPP.COM", category: "UI/UX Design", imageUrl: "public/images/portfolio/main/photo\ 6.png", spanTwoColumns: true },
     ];
 
     const filteredItems = activeCategory === "All"
